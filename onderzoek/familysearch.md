@@ -212,3 +212,22 @@ surname on baptisms where FamilySearch does not. Results show max. ~50 rows per 
   parents néhai Fridlik István, néhai Kunyik Erzsébet; married Budapest VI 1926. Registered 22 May 1961 (written notice).
 - András's death: not in the FS index up to 1980 (searched Kagol/Kágol/Kargol/Kargul András). Next: browse Budapest XIII death
   registers 1961–1980 (images viewable) or grave finders; he may have died after 1980.
+
+## Round 7 (2026-09-30): looking for András Kagol's death via registers
+- **Browse method** (Hungary Civil Registration, collection 1452460): waypoint pages
+  `https://www.familysearch.org/search/image/index?owc=<id>&cc=1452460`; type the image number in the "Image __ of N" box → URL
+  gets the image ark `3:1:...` → full scan via the deepzoom `dist.jpg` URL (see round 6). Script: scratch `goimg.py` (copy kept in scripts/).
+  FS uses **modern district numbers**: "Budapest (IV. Kerület)" = Újpest (a separate town in 1901), "V" = Belváros-Lipótváros.
+  Waypoint ids: Pest county list `9298-2NL:40678301`; districts: V `92SR-PT5:40678301,51334101`, VI `92ST-FM7:…51865101`,
+  VII `92SR-FMQ:…54933001`, VIII `92ST-3TP:…57613001`, XIII `92ST-DP8:…65374601`, IV/Újpest `92SR-ZNB:…48553201`.
+- **Budapest XIII deaths**: volumes 1938–1976 exist (1961–62 = 769 images, film 007251890); **no alphabetical index** in the
+  volumes → reading all 1961–1976 (>10,000 images) not feasible. Budapest deaths 1961–1980 are only partly indexed.
+- **Birth margins carry later death notes** (e.g. "Mo 352/1985", "Haláleset … halotti anyakönyv … sz. a.") → finding András's
+  1901 birth entry could give his death. Searched without result (entries read on the scans):
+  - Budapest V births 1901 (jan) volume: entries 231–257 (registered 4–12 Mar), images 46–51.
+  - Újpest births 1901 (jan) volume (owc 92QX-YW5…1077263103): entries 276–295 (7–11 Mar), images 112–122. One entry per page, two per scan.
+  - Budapest VII births 1901 (jan) volume (owc 92QR-82Q…1077263103): entries 808–963 (9–21 Mar), images 164–212 (pages filmed twice
+    in places; even images suffice). No András/Kargol/Kagol.
+  - Not yet checked: VII registrations 7–8 Mar (before entry 808); VIII births 1901 (márc) volume (owc 92Q5-16N…1077300901) –
+    the family lived in VIII in 1896; VI; late registrations.
+- Web: no hits for "Kágol András"; BTI (Budapest cemeteries) has no public grave finder.
