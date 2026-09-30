@@ -35,6 +35,11 @@ Second Kargol line through Salomea (gen. 4): her father Casimir Kargol × Agnes 
 - **Geneteka** (Polish Genealogical Society index): check whether Szczepanów is indexed there, possibly with years that
   FamilySearch lacks.
 
+## Status (2026-09-30, round 4)
+- Step 1 done: Salomea's parents proven (Kazimierz Kargol of house 3, son of Antoni, × Agnieszka Jerzykowska); Simon's baptism found (17 Oct 1779); Catharina Lis's baptism accepted.
+- Step 2: blocked. Casimir's baptism and marriage are in no index; the FamilySearch scans are locked (FamilySearch Center only). Options: FamilySearch Center visit, diocesan archive Tarnów, parish Szczepanów.
+- New: Geneteka indexes Szczepanów marriages from 1643 and deaths from 1662 – oldest Kargols listed in familysearch.md.
+
 ## Steps
 
 1. **Close the gaps in what we have** (quick, index only)

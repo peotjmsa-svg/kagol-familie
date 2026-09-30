@@ -7,7 +7,7 @@
    "born": "ca. 1751",
    "died": "22-2-1815",
    "place": "Wokowice",
-   "note": "Oudste bekende Kargol van deze lijn. Woonde op huis nr. 57 in Wokowice en overleed daar in 1815, 64 jaar oud. Kinderen met Agnes Grochola: Josephus (gedoopt 19-3-1776), Simon (ca. 1777), Bartholomaeus (21-8-1787) en Marianna (2-7-1789). Zijn huwelijk (rond 1775) en zijn doop staan niet in de online index.",
+   "note": "Oudste bekende Kargol van deze lijn. Woonde op huis nr. 57 in Wokowice en overleed daar in 1815, 64 jaar oud. Kinderen met Agnieszka (ook Agata genoemd) Grochola, allemaal op nr. 57: Józef (gedoopt 19-3-1776), Szymon (17-10-1779), Stefan (23-12-1781), Kazimierz (4-3-1784), Bartłomiej (21-8-1787), Marianna (2-7-1789), Stanisław (10-2-1792), Anna (13-5-1794) en Agnieszka (1797). Zijn doop (rond 1751) en zijn huwelijk (rond 1775) staan niet in de indexen: de doopboeken van Szczepanów beginnen pas in 1772.",
    "line": "kargol",
    "sources": [
     {
@@ -21,33 +21,41 @@
     {
      "label": "Doop zoon Josephus 1776",
      "url": "https://www.familysearch.org/ark:/61903/1:1:6V39-9495"
+    },
+    {
+     "label": "Geneteka: kinderen van Kazimierz Kargol",
+     "url": "https://geneteka.genealodzy.pl/index.php?op=gt&lang=pol&w=06mp&search_lastname=Kargol&bdm=B&rid=B&search_name=Kazimierz&from_date=1770&to_date=1800"
     }
    ]
   },
   "agnes_grochola": {
    "id": "agnes_grochola",
-   "name": "Agnes Grochola",
+   "name": "Agnieszka (Agata) Grochola",
    "sex": "f",
    "born": null,
    "died": null,
    "place": "Wokowice",
-   "note": "",
+   "note": "In de doopboeken afwisselend Agnieszka (Agnes) en Agata genoemd, maar steeds met de achternaam Grochola en op hetzelfde huis nr. 57: het gaat om één vrouw. De familie Grochola woonde ook in Szczepanów en Jadowniki.",
    "line": "kargol",
    "sources": []
   },
   "simon_kargol": {
    "id": "simon_kargol",
-   "name": "Simon Kargol",
+   "name": "Simon (Szymon) Kargol",
    "sex": "m",
-   "born": "ca. 1777",
+   "born": "17-10-1779",
    "died": "9-10-1834",
    "place": "Wokowice",
-   "note": "Boer op huis nr. 57 in Wokowice. Trouwde op 16 februari 1806 in Szczepanów met Catharina Lis (18), dochter van Stanislaus Lis. Overleed op 57-jarige leeftijd.",
+   "note": "Gedoopt op 17 oktober 1779, op huis nr. 57 in Wokowice. Boer op datzelfde huis. Trouwde op 16 februari 1806 in Szczepanów met Catharina Lis (18), dochter van Stanislaus Lis. Overleed in 1834; de akten geven zijn leeftijd een paar jaar te hoog op, wat toen vaak gebeurde.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom PZ9V-ZK5",
      "url": "https://www.familysearch.org/tree/person/details/PZ9V-ZK5"
+    },
+    {
+     "label": "Doop 1779",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VST-B432"
     },
     {
      "label": "Huwelijk 1806",
@@ -66,7 +74,7 @@
    "born": "ca. 1788",
    "died": null,
    "place": "Szczepanów",
-   "note": "Waarschijnlijk dezelfde als de Catharina die op 17 maart 1788 in Szczepanów werd gedoopt als dochter van Stanislaus Lis en Theresia.",
+   "note": "Gedoopt op 17 maart 1788 op huis nr. 53, dochter van Stanislaus Lis en Theresia (leeftijd en vader kloppen met het huwelijk van 1806).",
    "line": "kargol",
    "sources": [
     {
@@ -74,7 +82,7 @@
      "url": "https://www.familysearch.org/tree/person/details/PZ9V-CNY"
     },
     {
-     "label": "Doop 1788 (waarschijnlijk)",
+     "label": "Doop 1788",
      "url": "https://www.familysearch.org/ark:/61903/1:1:6VS1-7NDS"
     }
    ]
@@ -103,18 +111,54 @@
   },
   "casimir_kargol": {
    "id": "casimir_kargol",
-   "name": "Casimir Kargol",
+   "name": "Kazimierz (Casimir) Kargol",
+   "sex": "m",
+   "born": "26-2-1775",
+   "died": null,
+   "place": "Wokowice",
+   "note": "Vader van Salomea. Een andere Kargol dan de Casimir van nr. 57: deze woonde op huis nr. 3 in Wokowice. Zoon van Antoni Kargol en Ewa Urbaś. Trouwde op 26 februari 1797 met Agnieszka Jerzykowska (20), dochter van Andrzej Jerzykowski. Kinderen o.a. Salomea (1798, jong gestorven?), Tomasz (1799) en Salomea (1814).",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Doop 1775",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V39-78CG"
+    },
+    {
+     "label": "Huwelijk 1797",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-52GM"
+    }
+   ]
+  },
+  "agnes_ksiazek": {
+   "id": "agnes_ksiazek",
+   "name": "Agnieszka Jerzykowska",
+   "sex": "f",
+   "born": "ca. 1777",
+   "died": null,
+   "place": null,
+   "note": "Dochter van Andrzej Jerzykowski. In de huwelijksakte van haar dochter Salomea (1836) staat haar naam in de index als 'Kziazek'; de huwelijksakte van 1797 en de doopakten van haar kinderen geven Jerzykowska.",
+   "line": "kargol",
+   "sources": []
+  },
+  "antoni_kargol": {
+   "id": "antoni_kargol",
+   "name": "Antoni Kargol",
    "sex": "m",
    "born": null,
    "died": null,
    "place": "Wokowice",
-   "note": "Vader van Salomea. Een andere Kargol dan de Casimir hierboven, uit dezelfde grote familie in Wokowice.",
+   "note": "Trouwde in 1756 met Magdalena Korzeń en, na haar dood, op 9 november 1760 met Ewa Urbaś. Kinderen met Ewa o.a. Franciszek (1772) en Kazimierz (1775).",
    "line": "kargol",
-   "sources": []
+   "sources": [
+    {
+     "label": "Huwelijk 1760",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-2F4S"
+    }
+   ]
   },
-  "agnes_ksiazek": {
-   "id": "agnes_ksiazek",
-   "name": "Agnes Książek",
+  "ewa_urbas": {
+   "id": "ewa_urbas",
+   "name": "Ewa Urbaś",
    "sex": "f",
    "born": null,
    "died": null,
@@ -150,7 +194,7 @@
    "born": "24-10-1814",
    "died": "1-12-1855",
    "place": "Wokowice",
-   "note": "Dochter van Casimir Kargol en Agnes Książek. Weduwe in 1845; hertrouwde waarschijnlijk in 1850 met Simon Bach en overleed in 1855 in Wokowice.",
+   "note": "Geboren op huis nr. 3 in Wokowice, dochter van Kazimierz Kargol en Agnieszka Jerzykowska. Weduwe in 1845; hertrouwde waarschijnlijk in 1850 met Simon Bach en overleed in 1855 in Wokowice.",
    "line": "kargol",
    "sources": [
     {
@@ -1158,15 +1202,28 @@
   "c_casimir_ksiazek": {
    "h": "casimir_kargol",
    "w": "agnes_ksiazek",
-   "marr": null,
+   "marr": "26-2-1797, Szczepanów",
    "children": [
     "salomea_kargol"
+   ],
+   "parents": [
+    "c_antoni_ewa",
+    null
+   ],
+   "id": "c_casimir_ksiazek"
+  },
+  "c_antoni_ewa": {
+   "h": "antoni_kargol",
+   "w": "ewa_urbas",
+   "marr": "9-11-1760, Szczepanów",
+   "children": [
+    "casimir_kargol"
    ],
    "parents": [
     null,
     null
    ],
-   "id": "c_casimir_ksiazek"
+   "id": "c_antoni_ewa"
   },
   "c_casimir_grochola": {
    "h": "casimir_kargol_sr",

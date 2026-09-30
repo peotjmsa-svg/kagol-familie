@@ -137,3 +137,36 @@ note "Wokowice"). The Hungarian papers' "Wokowice illetőség" = this village. K
     Andreas 1837–1841, Blasius ca. 1840 (m. 26 Oct 1863 Uszew, Elisabeth Kargol), Veronica ca. 1843 (m. 8 Feb 1869 Adalbertus Stempak),
     Michael 1844–1866, Martina 1844–1844, Victoria 1846–1865, Hyacinthus 1849–1853.
 - **Rajmond Kargol** (father of András Kargol bapt. 1872 Terézváros, Budapest; wife Teréz Stepanyak): no other record found. Link unknown.
+
+## Round 4 (2026-09-30): plan steps 1–2 – Geneteka and the wall at Casimir
+**Geneteka** (geneteka.genealodzy.pl, region małopolskie `w=06mp`, free, no login; URL pattern
+`index.php?op=gt&lang=pol&bdm=B|S|D&w=06mp&rid=B|S|D&search_lastname=Kargol&search_name=&from_date=&to_date=`)
+indexes Szczepanów: marriages from **1643**, deaths from **1662**, baptisms only from **1772**. It gives the mother's
+surname on baptisms where FamilySearch does not. Results show max. ~50 rows per page – narrow the years.
+**FamilySearch scans** of the Szczepanów books (baptisms film 004666200, marriages film 004666204) are **locked**
+(padlock): viewable only in a FamilySearch Center / affiliate library, not from home.
+
+- Casimir Kargol × **Agnieszka/Agata Grochola** (house 57): one woman – Geneteka gives surname Grochola with both first names.
+  Children (Geneteka + FS, all house 57): Józef 19 Mar 1776; **Szymon/Simon bapt. 17 Oct 1779** (FS 6VST-B432); Stefan 23 Dec 1781;
+  Kazimierz 4 Mar 1784; Bartłomiej 21 Aug 1787; Marianna 2 Jul 1789; Stanisław 10 Feb 1792; Anna 13 May 1794; Agnieszka 1797.
+  Casimir's marriage (~1775) is NOT in Geneteka or FS (Kazimierz Kargol marriages 1740–1800: only 1797). No baptism (books start 1772).
+  Agnes/Agata Grochola's death not found (FS searched Agnes/Agatha Kargol 1795–1840).
+- **Salomea Kargol (b. 24 Oct 1814, house 3)**: father Kazimierz Kargol b./bapt. 26 Feb 1775 (FS 6V39-78CG, parents Antoni Kargol & Ewa),
+  m. 26 Feb 1797 (FS 6VSB-52GM: age 24, house 3, Wokowice, son of Antonius) **Agnieszka Jerzykowska** (20), dau. of Andrzej Jerzykowski
+  (FS indexes "Gerzykoski/Krzykoski/Jerzykowski"). The 1836 index "Agnetis Kziazek" is a misreading. Children in Geneteka: Salomea 1798, Tomasz 1799, ... Salomea 1814 (FS).
+  Antoni Kargol m. 1756 Magdalena Korzeń and 9 Nov 1760 (FS 6V3M-2F4S "Evam Krbasiowna") Ewa Urbaś (Geneteka).
+- Catharina Lis bapt. 17 Mar 1788, house 53 (6VS1-7NDS), parents Stanislaus Lis & Theresia – accepted.
+- **Oldest Kargols** (Geneteka): marriages 1643 Stanisław Kuzera × Zofia Kargol; 1647 Stanisław Kargol × Regina; 1654 Sebastian Kargol ×
+  Zofia Kaczmarczyk; 1659 Adam Kargol × Jadwiga Wróbel; 1668 Kazimierz Kargol × Zuzanna Bieżata. Deaths: 1662 Maryna Gargol (Wokowice);
+  1667–1674 several Kargol children of Kazimierz, Stanisław and Szymon in Wokowice. **Jadowniki** branch (parish next to Brzesko):
+  baptisms 1702–1708 (children of Andrzej × Zofia), marriages 1695 Szymon × Zuzanna Matras, 1715 Kazimierz × Zofia Kmieć,
+  1720 Grzegorz × Dorota Grochola; deaths 1701–1733.
+- Candidate parents for Casimir (b. ca. 1751) among Szczepanów Kargol marriages 1743–1751 (Geneteka): Marcin × Helena Stępak 1743;
+  Stanisław × Regina Boryczko 1747; Wojciech × Katarzyna Kaczor 1747; Albert × Marianna Tybon 1751; Tomasz × Regina Kubala 1751.
+  Cannot decide without his baptism or marriage entry.
+
+## Next options to get past Casimir
+1. Visit a FamilySearch Center / affiliate library (Netherlands: several FamilySearch centers) and read film 004666204 (marriages ~1774–1776)
+   and 004666200 (any pre-1772 baptism fragments) – the user would have to go, or order a scan.
+2. Ask the **Archiwum Diecezjalne w Tarnowie** or the parish of Szczepanów for a lookup/scan of Casimir's marriage (~1774–1776).
+3. Josephine cadastre (1785–1788) for Wokowice: who held house 57 (and whether it came from Casimir's father).

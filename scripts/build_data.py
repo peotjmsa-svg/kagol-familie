@@ -10,6 +10,7 @@ import os
 
 FS_TREE = "https://www.familysearch.org/tree/person/details/"
 FS_REC = "https://www.familysearch.org/ark:/61903/1:1:"
+GT = "https://geneteka.genealodzy.pl/index.php?op=gt&lang=pol&w=06mp&search_lastname=Kargol&"
 
 P = {}
 
@@ -28,23 +29,38 @@ L = "kargol"
 # Poland: all in the parish of Szczepanów (Tarnów diocese); house no. 57 lies in the village of Wokowice.
 person("casimir_kargol_sr", "Casimir Kargol", "m", "ca. 1751", "22-2-1815", "Wokowice", line=L,
        note="Oudste bekende Kargol van deze lijn. Woonde op huis nr. 57 in Wokowice en overleed daar in 1815, 64 jaar "
-            "oud. Kinderen met Agnes Grochola: Josephus (gedoopt 19-3-1776), Simon (ca. 1777), Bartholomaeus "
-            "(21-8-1787) en Marianna (2-7-1789). Zijn huwelijk (rond 1775) en zijn doop staan niet in de online index.",
+            "oud. Kinderen met Agnieszka (ook Agata genoemd) Grochola, allemaal op nr. 57: Józef (gedoopt 19-3-1776), "
+            "Szymon (17-10-1779), Stefan (23-12-1781), Kazimierz (4-3-1784), Bartłomiej (21-8-1787), Marianna "
+            "(2-7-1789), Stanisław (10-2-1792), Anna (13-5-1794) en Agnieszka (1797). Zijn doop (rond 1751) en zijn "
+            "huwelijk (rond 1775) staan niet in de indexen: de doopboeken van Szczepanów beginnen pas in 1772.",
        recs=[("Begrafenis 1815", "6V34-W5QS"), ("Genoemd bij begrafenis zoon Simon 1834", "6V34-8W94"),
-             ("Doop zoon Josephus 1776", "6V39-9495")])
-person("agnes_grochola", "Agnes Grochola", "f", None, None, "Wokowice", line=L)
-person("simon_kargol", "Simon Kargol", "m", "ca. 1777", "9-10-1834", "Wokowice", fs="PZ9V-ZK5", line=L,
-       note="Boer op huis nr. 57 in Wokowice. Trouwde op 16 februari 1806 in Szczepanów met Catharina Lis (18), "
-            "dochter van Stanislaus Lis. Overleed op 57-jarige leeftijd.",
-       recs=[("Huwelijk 1806", "6VSB-KR2T"), ("Begrafenis 1834", "6V34-8W94")])
+             ("Doop zoon Josephus 1776", "6V39-9495"),
+             ("Geneteka: kinderen van Kazimierz Kargol", GT + "bdm=B&rid=B&search_name=Kazimierz&from_date=1770&to_date=1800")])
+person("agnes_grochola", "Agnieszka (Agata) Grochola", "f", None, None, "Wokowice", line=L,
+       note="In de doopboeken afwisselend Agnieszka (Agnes) en Agata genoemd, maar steeds met de achternaam Grochola en "
+            "op hetzelfde huis nr. 57: het gaat om één vrouw. De familie Grochola woonde ook in Szczepanów en Jadowniki.")
+person("simon_kargol", "Simon (Szymon) Kargol", "m", "17-10-1779", "9-10-1834", "Wokowice", fs="PZ9V-ZK5", line=L,
+       note="Gedoopt op 17 oktober 1779, op huis nr. 57 in Wokowice. Boer op datzelfde huis. Trouwde op 16 februari 1806 "
+            "in Szczepanów met Catharina Lis (18), dochter van Stanislaus Lis. Overleed in 1834; de akten geven zijn "
+            "leeftijd een paar jaar te hoog op, wat toen vaak gebeurde.",
+       recs=[("Doop 1779", "6VST-B432"), ("Huwelijk 1806", "6VSB-KR2T"), ("Begrafenis 1834", "6V34-8W94")])
 person("catharina_lis", "Catharina Lis", "f", "ca. 1788", None, "Szczepanów", fs="PZ9V-CNY", line=L,
-       note="Waarschijnlijk dezelfde als de Catharina die op 17 maart 1788 in Szczepanów werd gedoopt als dochter van "
-            "Stanislaus Lis en Theresia.", recs=[("Doop 1788 (waarschijnlijk)", "6VS1-7NDS")])
+       note="Gedoopt op 17 maart 1788 op huis nr. 53, dochter van Stanislaus Lis en Theresia (leeftijd en vader kloppen "
+            "met het huwelijk van 1806).", recs=[("Doop 1788", "6VS1-7NDS")])
 person("stanislaus_lis", "Stanislaus Lis", "m", None, None, "Szczepanów", line=L)
 person("theresia_lis", "Theresia", "f", None, None, "Szczepanów", line=L)
-person("casimir_kargol", "Casimir Kargol", "m", None, None, "Wokowice", line=L,
-       note="Vader van Salomea. Een andere Kargol dan de Casimir hierboven, uit dezelfde grote familie in Wokowice.")
-person("agnes_ksiazek", "Agnes Książek", "f", None, None, None, line=L)
+person("casimir_kargol", "Kazimierz (Casimir) Kargol", "m", "26-2-1775", None, "Wokowice", line=L,
+       note="Vader van Salomea. Een andere Kargol dan de Casimir van nr. 57: deze woonde op huis nr. 3 in Wokowice. Zoon "
+            "van Antoni Kargol en Ewa Urbaś. Trouwde op 26 februari 1797 met Agnieszka Jerzykowska (20), dochter van "
+            "Andrzej Jerzykowski. Kinderen o.a. Salomea (1798, jong gestorven?), Tomasz (1799) en Salomea (1814).",
+       recs=[("Doop 1775", "6V39-78CG"), ("Huwelijk 1797", "6VSB-52GM")])
+person("agnes_ksiazek", "Agnieszka Jerzykowska", "f", "ca. 1777", None, None, line=L,
+       note="Dochter van Andrzej Jerzykowski. In de huwelijksakte van haar dochter Salomea (1836) staat haar naam in de index "
+            "als 'Kziazek'; de huwelijksakte van 1797 en de doopakten van haar kinderen geven Jerzykowska.")
+person("antoni_kargol", "Antoni Kargol", "m", None, None, "Wokowice", line=L,
+       note="Trouwde in 1756 met Magdalena Korzeń en, na haar dood, op 9 november 1760 met Ewa Urbaś. Kinderen met Ewa o.a. "
+            "Franciszek (1772) en Kazimierz (1775).", recs=[("Huwelijk 1760", "6V3M-2F4S")])
+person("ewa_urbas", "Ewa Urbaś", "f", None, None, None, line=L)
 person("adalbert_kargol", "Wojciech (Adalbertus) Kargol", "m", "ca. 1817", "5-11-1845", "Wokowice", line=L,
        note="Zoon van Simon Kargol en Catharina Lis. Trouwde al op zijn 19e, op 26 januari 1836, met Salomea Kargol "
             "(21), ook een Kargol uit Wokowice. Overleed op 30-jarige leeftijd op huis nr. 57. Kinderen: Franciscus "
@@ -52,7 +68,7 @@ person("adalbert_kargol", "Wojciech (Adalbertus) Kargol", "m", "ca. 1817", "5-11
             "Martha en Matheus stierven in september 1849 kort na elkaar, in het jaar van de grote cholera-epidemie.",
        recs=[("Huwelijk 1836", "6VSB-K45C"), ("Begrafenis 1845", "6VST-8YG1")])
 person("salomea_kargol", "Salomea Kargol", "f", "24-10-1814", "1-12-1855", "Wokowice", line=L,
-       note="Dochter van Casimir Kargol en Agnes Książek. Weduwe in 1845; hertrouwde waarschijnlijk in 1850 met Simon "
+       note="Geboren op huis nr. 3 in Wokowice, dochter van Kazimierz Kargol en Agnieszka Jerzykowska. Weduwe in 1845; hertrouwde waarschijnlijk in 1850 met Simon "
             "Bach en overleed in 1855 in Wokowice.",
        recs=[("Doop 1814", "6V3G-W9RW"), ("Begrafenis 1855 (waarschijnlijk)", "6VST-VD3C")])
 person("ferenc_kargol", "Ferenc (Franciscus) Kargol", "m", "9-10-1836", "26-6-1903", "Wokowice", fs="GQZ4-NK8", line=L,
@@ -269,8 +285,10 @@ C = {
                        parents=[None, None]),
     "c_simon_lis": dict(h="simon_kargol", w="catharina_lis", marr="16-2-1806, Szczepanów", children=["adalbert_kargol"],
                         parents=["c_casimir_grochola", "c_lis"]),
-    "c_casimir_ksiazek": dict(h="casimir_kargol", w="agnes_ksiazek", marr=None, children=["salomea_kargol"],
-                              parents=[None, None]),
+    "c_casimir_ksiazek": dict(h="casimir_kargol", w="agnes_ksiazek", marr="26-2-1797, Szczepanów", children=["salomea_kargol"],
+                              parents=["c_antoni_ewa", None]),
+    "c_antoni_ewa": dict(h="antoni_kargol", w="ewa_urbas", marr="9-11-1760, Szczepanów", children=["casimir_kargol"],
+                         parents=[None, None]),
     "c_casimir_grochola": dict(h="casimir_kargol_sr", w="agnes_grochola", marr=None, children=["simon_kargol"],
                                parents=[None, None]),
     "c_lis": dict(h="stanislaus_lis", w="theresia_lis", marr=None, children=["catharina_lis"], parents=[None, None]),
