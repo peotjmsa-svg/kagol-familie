@@ -4,6 +4,8 @@ Genealogy research and a static family site (Dutch) for the Bán and Kagol (Karg
 Same way of working as C:\Users\thijn\hillen-familie (see its CLAUDE.md): only certain links, contradictions noted
 not silently fixed, research notes per topic in `onderzoek/`, updated and committed at the end of every session.
 Living people are never named on the site (the daughter of András Kagol and Mária Fridlik stays "dochter").
+Focus: the user is mainly interested in the **Kagol/Kargol line**; research that first, the other lines are secondary.
+Live site: https://peotjmsa-svg.github.io/kagol-familie/ (GitHub Pages from `main`). Commit and push after each round.
 
 ## Site
 - `index.html` (story), `stamboom.html` + `js/stamboom.js` (D3 ancestor tree per couple), `kaart.html` (Leaflet map),
