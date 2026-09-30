@@ -19,16 +19,19 @@ def person(pid, name, sex, born=None, died=None, place=None, note="", fs=None, r
         "id": pid, "name": name, "sex": sex, "born": born, "died": died, "place": place,
         "note": note, "line": line,
         "sources": ([{"label": "FamilySearch stamboom " + fs, "url": FS_TREE + fs}] if fs else [])
-        + [{"label": lab, "url": FS_REC + rid} for lab, rid in recs],
+        + [{"label": lab, "url": rid if rid.startswith("http") else FS_REC + rid} for lab, rid in recs],
     }
 
 
 # --- Kargol (Szczepanów, Galicië -> Boedapest) ---
 L = "kargol"
 # Poland: all in the parish of Szczepanów (Tarnów diocese); house no. 57 lies in the village of Wokowice.
-person("casimir_kargol_sr", "Casimir Kargol", "m", None, None, "Wokowice", line=L,
-       note="Oudste bekende Kargol van deze lijn, rond 1750–1780 in Wokowice. Vader van Simon.",
-       recs=[("Genoemd bij begrafenis zoon Simon 1834", "6V34-8W94")])
+person("casimir_kargol_sr", "Casimir Kargol", "m", "ca. 1751", "22-2-1815", "Wokowice", line=L,
+       note="Oudste bekende Kargol van deze lijn. Woonde op huis nr. 57 in Wokowice en overleed daar in 1815, 64 jaar "
+            "oud. Kinderen met Agnes Grochola: Josephus (gedoopt 19-3-1776), Simon (ca. 1777), Bartholomaeus "
+            "(21-8-1787) en Marianna (2-7-1789). Zijn huwelijk (rond 1775) en zijn doop staan niet in de online index.",
+       recs=[("Begrafenis 1815", "6V34-W5QS"), ("Genoemd bij begrafenis zoon Simon 1834", "6V34-8W94"),
+             ("Doop zoon Josephus 1776", "6V39-9495")])
 person("agnes_grochola", "Agnes Grochola", "f", None, None, "Wokowice", line=L)
 person("simon_kargol", "Simon Kargol", "m", "ca. 1777", "9-10-1834", "Wokowice", fs="PZ9V-ZK5", line=L,
        note="Boer op huis nr. 57 in Wokowice. Trouwde op 16 februari 1806 in Szczepanów met Catharina Lis (18), "
@@ -60,21 +63,43 @@ person("ferenc_kargol", "Ferenc (Franciscus) Kargol", "m", "9-10-1836", "26-6-19
             "Overleed op 66-jarige leeftijd op huis nr. 57.",
        recs=[("Doop 1836", "6V3V-J4C6"), ("Huwelijk 1856", "6V3M-6VNZ"), ("Huwelijk 1860", "6V3M-8WQS"),
              ("Huwelijk 1872", "6V3M-HT3X"), ("Begrafenis 1903", "6V3S-SM59")])
-person("maria_latocha", "Marianna (Mária) Latocha", "f", "ca. 1833", "25-4-1872", "Szczepanów", fs="GQZ4-JWC", line=L,
-       note="Dochter van Michael Latocha en Marianna Budzioch. Trouwde op 2 juli 1860 met Ferenc Kargol, toen ze 27 was. "
-            "Overleed op 25 april 1872 en werd twee dagen later in Szczepanów begraven. Haar zoon János was toen vier.",
-       recs=[("Huwelijk 1860", "6V3M-8WQS")])
-person("michael_latocha", "Michael Latocha", "m", "ca. 1806", "10-3-1870", "Szczepanów", line=L,
-       note="Overleed in 1870, twee jaar vóór zijn dochter. Meerdere van zijn kinderen stierven jong.")
-person("marianna_budzioch", "Marianna Budzioch", "f", None, None, "Szczepanów", line=L)
+person("maria_latocha", "Marianna (Mária) Latocha", "f", "16-3-1832", "25-4-1872", "Wokowice", fs="GQZ4-JWC", line=L,
+       note="Geboren op huis nr. 40 in Wokowice, een paar huizen van de Kargols, als dochter van Michael Latocha en "
+            "Marianna Budzioch. Trouwde op 2 juli 1860 met Ferenc Kargol. Overleed op 25 april 1872 en werd twee dagen "
+            "later in Szczepanów begraven. Haar zoon János was toen vier. Haar zus Agnes trouwde in 1863 met Stanislaus "
+            "Kargol, haar broer Blasius in hetzelfde jaar met Elisabeth Kargol.",
+       recs=[("Doop 1832", "6V3F-13NR"), ("Huwelijk 1860", "6V3M-8WQS")])
+person("michael_latocha", "Michael Latocha", "m", "27-9-1806", "10-3-1870", "Wokowice", line=L,
+       note="Geboren op huis nr. 40 in Wokowice, zoon van Martinus Latocha. Trouwde op 18 februari 1828, 22 jaar oud, "
+            "met Marianna Budzioch, die toen pas 15 was. Kinderen o.a. Marianna (1832), Agnes (1835), Andreas "
+            "(1837–1841), Blasius (1840), Veronica (1843), Michael (1844–1866), Martina (1844), Victoria (1846–1865) en "
+            "Hyacinthus (1849–1853).",
+       recs=[("Doop 1806", "6V3N-2MJV"), ("Huwelijk 1828", "6VSB-TX7T")])
+person("marianna_budzioch", "Marianna Budzioch", "f", "3-6-1813", "19-10-1880", "Wokowice", line=L,
+       note="Dochter van Joannes Budzioch en Agnes. Trouwde op haar 15e met Michael Latocha. Overleed in 1880 op huis nr. 40.",
+       recs=[("Doop 1813", "6V3K-S7P4"), ("Begrafenis 1880", "6VST-8WSX")])
+person("martinus_latocha", "Martinus Latocha", "m", "6-10-1783", "21-6-1849", "Wokowice", line=L,
+       note="Zoon van Gaspar Latocha en Anna. Woonde op huis nr. 40 in Wokowice. Overleed in juni 1849, het jaar van de cholera.",
+       recs=[("Doop 1783", "6VS1-3JQK"), ("Begrafenis 1849", "6VST-DKRC")])
+person("marianna_drelicharz", "Marianna (Drelicharz?)", "f", None, None, "Wokowice", line=L,
+       note="Bij de doop van haar zoon Michael (1806) staat alleen 'Marianna'. Bij de begrafenis van Martinus (1849) heet "
+            "zijn vrouw Marianna Drelicharz, maar er komt ook een Martinus Latocha met Marianna Kwaśniak voor.")
+person("gaspar_latocha", "Gaspar Latocha", "m", "ca. 1745", "16-12-1805", "Szczepanów", line=L,
+       note="Oudste bekende Latocha. Verloor in maart 1798 binnen enkele dagen drie kinderen.")
+person("anna_latocha", "Anna", "f", None, None, None, line=L)
+person("joannes_budzioch", "Joannes Budzioch", "m", None, None, "Wokowice", line=L,
+       note="Kinderen o.a. Joannes (1807), Agnes (1809), Josephus (1812), Marianna (1813), Salomea (1816), Sophia (1817), Helena (1821).")
+person("agnes_budzioch", "Agnes", "f", None, None, None, line=L)
 person("janos_kargol", "János Lőrinc Kargol", "m", "6-6-1867", "25-8-1936", "Wokowice", fs="LY13-M7K", line=L,
        note="Gedoopt als Joannes Laurentius op 7 juni 1867 in Szczepanów, geboren op huis nr. 57 in Wokowice. Zijn "
             "moeder stierf toen hij vier was. Trok naar Boedapest en werkte daar als hulpje van metselaars "
             "(kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks "
             "onderdaan uit Galicië, met woonrecht in Szczepanów (Wokowice)'. Woonde in Boedapest VIII (Köztemető út 87, "
             "1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer "
-            "1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.",
-       recs=[("Doop 1867", "6VSB-7ZQM")])
+            "1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Bij de geboorte van Miklós in "
+            "1908 staat hij in het register als 'Kargul János, rooms-katholiek, 40, dagloner'. Overleed op 25 augustus 1936 "
+            "in het 10e district (Kőbánya); de overlijdensakte noemt zijn ouders 'Kargol Ferenc en Latóka Mária'.",
+       recs=[("Doop 1867", "6VSB-7ZQM"), ("Overlijden 1936", "WQKQ-3NW2")])
 person("marianna_kargol_1865", "Marianna Kargol", "f", "22-4-1865", None, "Wokowice", line=L,
        note="Oudere zus van János. Mogelijk dezelfde als de Maria, dochter van Franciscus Kargol en Maria Latocha, die "
             "op 16 januari 1898 in Szczepanów trouwde met Josephus Kargol.",
@@ -134,8 +159,12 @@ person("maria_siroky", "Mária Siroky", "f", None, None, "Lúčky", fs="G6GX-DKJ
 person("zsuzsanna_savrnoch", "Zsuzsanna Savrnoch", "f", "30-9-1875", "19-10-1945", "Lúčky", fs="LY1S-PL6", line=S,
        note="Geboren in Lúčky en daar op 2 oktober 1875 gedoopt. Kwam als kind naar Boedapest. Kreeg met János Kargol "
             "acht kinderen. Overleed in oktober 1945 in het 12e district van Boedapest, 71 jaar oud. In akten ook "
-            "Savernoch, Savernok, Saverno of Saurnoch genoemd.",
-       recs=[("Overlijden 1945", "QPLV-Q91D")])
+            "Savernoch, Savernok, Saverno of Saurnoch genoemd. In 1911 zat ze vier maanden in de gevangenis (13 mei – "
+            "13 september) wegens hulp bij een diefstal. Het gevangenisregister beschrijft haar: 1,50 m, stevig, rond "
+            "gezicht, lichtbruin haar, blauwe ogen. Moedertaal Slowaaks, sprak ook Hongaars en Duits, kon niet lezen of "
+            "schrijven, zes kinderen, 'kosten niet te verhalen' (geen bezit).",
+       recs=[("Overlijden 1945", "QPLV-Q91D"),
+             ("Gevangenisregister 1911 (scan)", "https://www.familysearch.org/en/tree/person/memories/LY13-M7K")])
 person("anna_savrnoch", "Anna Savrnoch", "f", "27-9-1877", "1919", "Lúčky", fs="LY1H-P8Y", line=S,
        note="Trouwde op 11 juni 1899 in Boedapest met Géza Giczy (geb. 1876); vier kinderen.")
 person("jozsef_savrnoch", "József Savrnoch", "m", "14-3-1880", "28-11-1903", "Lúčky", fs="LY1H-G83", line=S,
@@ -230,8 +259,14 @@ C = {
                              parents=["c_adalbert_salomea", "c_latocha_budzioch"]),
     "c_adalbert_salomea": dict(h="adalbert_kargol", w="salomea_kargol", marr="26-1-1836, Szczepanów",
                                children=["ferenc_kargol"], parents=["c_simon_lis", "c_casimir_ksiazek"]),
-    "c_latocha_budzioch": dict(h="michael_latocha", w="marianna_budzioch", marr=None, children=["maria_latocha"],
-                               parents=[None, None]),
+    "c_latocha_budzioch": dict(h="michael_latocha", w="marianna_budzioch", marr="18-2-1828, Szczepanów",
+                               children=["maria_latocha"], parents=["c_martin_latocha", "c_budzioch"]),
+    "c_martin_latocha": dict(h="martinus_latocha", w="marianna_drelicharz", marr=None, children=["michael_latocha"],
+                             parents=["c_gaspar_latocha", None]),
+    "c_gaspar_latocha": dict(h="gaspar_latocha", w="anna_latocha", marr=None, children=["martinus_latocha"],
+                             parents=[None, None]),
+    "c_budzioch": dict(h="joannes_budzioch", w="agnes_budzioch", marr=None, children=["marianna_budzioch"],
+                       parents=[None, None]),
     "c_simon_lis": dict(h="simon_kargol", w="catharina_lis", marr="16-2-1806, Szczepanów", children=["adalbert_kargol"],
                         parents=["c_casimir_grochola", "c_lis"]),
     "c_casimir_ksiazek": dict(h="casimir_kargol", w="agnes_ksiazek", marr=None, children=["salomea_kargol"],

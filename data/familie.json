@@ -4,15 +4,23 @@
    "id": "casimir_kargol_sr",
    "name": "Casimir Kargol",
    "sex": "m",
-   "born": null,
-   "died": null,
+   "born": "ca. 1751",
+   "died": "22-2-1815",
    "place": "Wokowice",
-   "note": "Oudste bekende Kargol van deze lijn, rond 1750–1780 in Wokowice. Vader van Simon.",
+   "note": "Oudste bekende Kargol van deze lijn. Woonde op huis nr. 57 in Wokowice en overleed daar in 1815, 64 jaar oud. Kinderen met Agnes Grochola: Josephus (gedoopt 19-3-1776), Simon (ca. 1777), Bartholomaeus (21-8-1787) en Marianna (2-7-1789). Zijn huwelijk (rond 1775) en zijn doop staan niet in de online index.",
    "line": "kargol",
    "sources": [
     {
+     "label": "Begrafenis 1815",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V34-W5QS"
+    },
+    {
      "label": "Genoemd bij begrafenis zoon Simon 1834",
      "url": "https://www.familysearch.org/ark:/61903/1:1:6V34-8W94"
+    },
+    {
+     "label": "Doop zoon Josephus 1776",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V39-9495"
     }
    ]
   },
@@ -196,15 +204,19 @@
    "id": "maria_latocha",
    "name": "Marianna (Mária) Latocha",
    "sex": "f",
-   "born": "ca. 1833",
+   "born": "16-3-1832",
    "died": "25-4-1872",
-   "place": "Szczepanów",
-   "note": "Dochter van Michael Latocha en Marianna Budzioch. Trouwde op 2 juli 1860 met Ferenc Kargol, toen ze 27 was. Overleed op 25 april 1872 en werd twee dagen later in Szczepanów begraven. Haar zoon János was toen vier.",
+   "place": "Wokowice",
+   "note": "Geboren op huis nr. 40 in Wokowice, een paar huizen van de Kargols, als dochter van Michael Latocha en Marianna Budzioch. Trouwde op 2 juli 1860 met Ferenc Kargol. Overleed op 25 april 1872 en werd twee dagen later in Szczepanów begraven. Haar zoon János was toen vier. Haar zus Agnes trouwde in 1863 met Stanislaus Kargol, haar broer Blasius in hetzelfde jaar met Elisabeth Kargol.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom GQZ4-JWC",
      "url": "https://www.familysearch.org/tree/person/details/GQZ4-JWC"
+    },
+    {
+     "label": "Doop 1832",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3F-13NR"
     },
     {
      "label": "Huwelijk 1860",
@@ -216,20 +228,113 @@
    "id": "michael_latocha",
    "name": "Michael Latocha",
    "sex": "m",
-   "born": "ca. 1806",
+   "born": "27-9-1806",
    "died": "10-3-1870",
-   "place": "Szczepanów",
-   "note": "Overleed in 1870, twee jaar vóór zijn dochter. Meerdere van zijn kinderen stierven jong.",
+   "place": "Wokowice",
+   "note": "Geboren op huis nr. 40 in Wokowice, zoon van Martinus Latocha. Trouwde op 18 februari 1828, 22 jaar oud, met Marianna Budzioch, die toen pas 15 was. Kinderen o.a. Marianna (1832), Agnes (1835), Andreas (1837–1841), Blasius (1840), Veronica (1843), Michael (1844–1866), Martina (1844), Victoria (1846–1865) en Hyacinthus (1849–1853).",
    "line": "kargol",
-   "sources": []
+   "sources": [
+    {
+     "label": "Doop 1806",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3N-2MJV"
+    },
+    {
+     "label": "Huwelijk 1828",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-TX7T"
+    }
+   ]
   },
   "marianna_budzioch": {
    "id": "marianna_budzioch",
    "name": "Marianna Budzioch",
    "sex": "f",
+   "born": "3-6-1813",
+   "died": "19-10-1880",
+   "place": "Wokowice",
+   "note": "Dochter van Joannes Budzioch en Agnes. Trouwde op haar 15e met Michael Latocha. Overleed in 1880 op huis nr. 40.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Doop 1813",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3K-S7P4"
+    },
+    {
+     "label": "Begrafenis 1880",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VST-8WSX"
+    }
+   ]
+  },
+  "martinus_latocha": {
+   "id": "martinus_latocha",
+   "name": "Martinus Latocha",
+   "sex": "m",
+   "born": "6-10-1783",
+   "died": "21-6-1849",
+   "place": "Wokowice",
+   "note": "Zoon van Gaspar Latocha en Anna. Woonde op huis nr. 40 in Wokowice. Overleed in juni 1849, het jaar van de cholera.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Doop 1783",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VS1-3JQK"
+    },
+    {
+     "label": "Begrafenis 1849",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VST-DKRC"
+    }
+   ]
+  },
+  "marianna_drelicharz": {
+   "id": "marianna_drelicharz",
+   "name": "Marianna (Drelicharz?)",
+   "sex": "f",
    "born": null,
    "died": null,
+   "place": "Wokowice",
+   "note": "Bij de doop van haar zoon Michael (1806) staat alleen 'Marianna'. Bij de begrafenis van Martinus (1849) heet zijn vrouw Marianna Drelicharz, maar er komt ook een Martinus Latocha met Marianna Kwaśniak voor.",
+   "line": "kargol",
+   "sources": []
+  },
+  "gaspar_latocha": {
+   "id": "gaspar_latocha",
+   "name": "Gaspar Latocha",
+   "sex": "m",
+   "born": "ca. 1745",
+   "died": "16-12-1805",
    "place": "Szczepanów",
+   "note": "Oudste bekende Latocha. Verloor in maart 1798 binnen enkele dagen drie kinderen.",
+   "line": "kargol",
+   "sources": []
+  },
+  "anna_latocha": {
+   "id": "anna_latocha",
+   "name": "Anna",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "kargol",
+   "sources": []
+  },
+  "joannes_budzioch": {
+   "id": "joannes_budzioch",
+   "name": "Joannes Budzioch",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Wokowice",
+   "note": "Kinderen o.a. Joannes (1807), Agnes (1809), Josephus (1812), Marianna (1813), Salomea (1816), Sophia (1817), Helena (1821).",
+   "line": "kargol",
+   "sources": []
+  },
+  "agnes_budzioch": {
+   "id": "agnes_budzioch",
+   "name": "Agnes",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
    "note": "",
    "line": "kargol",
    "sources": []
@@ -241,7 +346,7 @@
    "born": "6-6-1867",
    "died": "25-8-1936",
    "place": "Wokowice",
-   "note": "Gedoopt als Joannes Laurentius op 7 juni 1867 in Szczepanów, geboren op huis nr. 57 in Wokowice. Zijn moeder stierf toen hij vier was. Trok naar Boedapest en werkte daar als hulpje van metselaars (kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks onderdaan uit Galicië, met woonrecht in Szczepanów (Wokowice)'. Woonde in Boedapest VIII (Köztemető út 87, 1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer 1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.",
+   "note": "Gedoopt als Joannes Laurentius op 7 juni 1867 in Szczepanów, geboren op huis nr. 57 in Wokowice. Zijn moeder stierf toen hij vier was. Trok naar Boedapest en werkte daar als hulpje van metselaars (kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks onderdaan uit Galicië, met woonrecht in Szczepanów (Wokowice)'. Woonde in Boedapest VIII (Köztemető út 87, 1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer 1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Bij de geboorte van Miklós in 1908 staat hij in het register als 'Kargul János, rooms-katholiek, 40, dagloner'. Overleed op 25 augustus 1936 in het 10e district (Kőbánya); de overlijdensakte noemt zijn ouders 'Kargol Ferenc en Latóka Mária'.",
    "line": "kargol",
    "sources": [
     {
@@ -251,6 +356,10 @@
     {
      "label": "Doop 1867",
      "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-7ZQM"
+    },
+    {
+     "label": "Overlijden 1936",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:WQKQ-3NW2"
     }
    ]
   },
@@ -646,7 +755,7 @@
    "born": "30-9-1875",
    "died": "19-10-1945",
    "place": "Lúčky",
-   "note": "Geboren in Lúčky en daar op 2 oktober 1875 gedoopt. Kwam als kind naar Boedapest. Kreeg met János Kargol acht kinderen. Overleed in oktober 1945 in het 12e district van Boedapest, 71 jaar oud. In akten ook Savernoch, Savernok, Saverno of Saurnoch genoemd.",
+   "note": "Geboren in Lúčky en daar op 2 oktober 1875 gedoopt. Kwam als kind naar Boedapest. Kreeg met János Kargol acht kinderen. Overleed in oktober 1945 in het 12e district van Boedapest, 71 jaar oud. In akten ook Savernoch, Savernok, Saverno of Saurnoch genoemd. In 1911 zat ze vier maanden in de gevangenis (13 mei – 13 september) wegens hulp bij een diefstal. Het gevangenisregister beschrijft haar: 1,50 m, stevig, rond gezicht, lichtbruin haar, blauwe ogen. Moedertaal Slowaaks, sprak ook Hongaars en Duits, kon niet lezen of schrijven, zes kinderen, 'kosten niet te verhalen' (geen bezit).",
    "line": "savrnoch",
    "sources": [
     {
@@ -656,6 +765,10 @@
     {
      "label": "Overlijden 1945",
      "url": "https://www.familysearch.org/ark:/61903/1:1:QPLV-Q91D"
+    },
+    {
+     "label": "Gevangenisregister 1911 (scan)",
+     "url": "https://www.familysearch.org/en/tree/person/memories/LY13-M7K"
     }
    ],
    "spouse": "janos_kargol"
@@ -1311,15 +1424,54 @@
   "c_latocha_budzioch": {
    "h": "michael_latocha",
    "w": "marianna_budzioch",
-   "marr": null,
+   "marr": "18-2-1828, Szczepanów",
    "children": [
     "maria_latocha"
+   ],
+   "parents": [
+    "c_martin_latocha",
+    "c_budzioch"
+   ],
+   "id": "c_latocha_budzioch"
+  },
+  "c_martin_latocha": {
+   "h": "martinus_latocha",
+   "w": "marianna_drelicharz",
+   "marr": null,
+   "children": [
+    "michael_latocha"
+   ],
+   "parents": [
+    "c_gaspar_latocha",
+    null
+   ],
+   "id": "c_martin_latocha"
+  },
+  "c_gaspar_latocha": {
+   "h": "gaspar_latocha",
+   "w": "anna_latocha",
+   "marr": null,
+   "children": [
+    "martinus_latocha"
    ],
    "parents": [
     null,
     null
    ],
-   "id": "c_latocha_budzioch"
+   "id": "c_gaspar_latocha"
+  },
+  "c_budzioch": {
+   "h": "joannes_budzioch",
+   "w": "agnes_budzioch",
+   "marr": null,
+   "children": [
+    "marianna_budzioch"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_budzioch"
   },
   "c_simon_lis": {
    "h": "simon_kargol",

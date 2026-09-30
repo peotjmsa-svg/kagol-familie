@@ -108,3 +108,32 @@ note "Wokowice"). The Hungarian papers' "Wokowice illetőség" = this village. K
 - Hungaricana: only unrelated hits (k.u.k. army lists Kargol Johann/Franz from Galicia 1913–1918; a János Kargol b. 1900 "Brzesko" wanted in 1940).
 - Arcanum (adt.arcanum.com) needs a paid subscription – not used.
 - FamilySearch catalog: Pilisszántó 1 church-records item, Tinnye 2 – not yet browsed (lower priority: user wants the Kagol line).
+
+## Round 3 (2026-09-30): further back and new documents
+- **János Kargol's death**: 25 Aug 1936, Budapest X (Kőbánya), entry 809, age "71", parents "Kargol Ferenc" and "Latóka Mária",
+  spouse Saverno Zsuzsanna. Record **WQKQ-3NW2** (found via the source list on his FS tree profile – searching did not find it).
+  Trick: on a tree person's Sources tab, click the source date to expand it; the ark link is shown ("Web Page").
+- **FS Memories on LY13-M7K** (uploaded by Hornyak.Balazs), full-size image via
+  `https://sg30p0.familysearch.org/service/records/storage/dascloud/patron/v2/<TH-id>/dist.jpg?ctx=ArtCtxPublic` (fetched in the logged-in browser):
+  - Prison register (fogolytörzskönyv) no. 1059, "Kargol Jánosné, alias Saverno Zsuzsanna" (TH-904-79074-1843-43): 150 cm, sturdy/stout, round face,
+    light chestnut hair, blue eyes, missing teeth; born 1874 "Luceli (Liptó m.)"; residence Budapest/Kispest Nagy Sándor u. 1?7; mother tongue Slovak
+    (also Hungarian, German); r.c.; legitimate child of S. Mihály and ...(?) Mária; married, six children; occupation household;
+    cannot read or write; costs uncollectable. Sentence of 2 May 1911: 4 months prison for accessory to theft ("lopás bűntettében való
+    bűnsegédi részesség"); served 13 May – 12 Sep 1911, released 13 Sep 1911. Image not republished on the site (link only).
+  - Kispest birth register 1908 no. 977 (TH-904-79075-100-90): Miklós, born 5 Dec 1908, registered 23 Dec; father "Kargul János r.kath. 40,
+    napszámos", mother "Savrnoch Zsuzsa r.kath. 33", Kispest Petőfi u. 148; note "A gyermek az atyja után galiciai osztrák honos és
+    'Szczepanow' községben bír illetőséggel"; later note "Mo 352/1985" (death 1985).
+- **Casimir Kargol** (father of Simon): burial 22 Feb 1815, age 64, house 57 (6V34-W5QS). Children with Agnes (Grochola): Josephus bapt.
+  19 Mar 1776 (6V39-9495), Bartholomaeus 21 Aug 1787, Marianna 2 Jul 1789. Simon's own baptism (ca. 1777) not found; a Simon bapt.
+  17 Oct 1779 has parents Casimir & Agatha (another couple). Casimir's marriage (~1775) and baptism (~1751) not in the index
+  (tried Casimirus/Casimirum). Possibly Agnes Grochola dau. of Thomas Grochola × Agnes Misina (m. 28 Jan 1755) – unproven.
+- Oldest Kargol marriages indexed in Szczepanów: Stanislaus 1654, Ignatius 1717, Jacobus 1730, Josephus 1732, Andreas & Jacobus 1738, ...
+- **Latocha line** (house no. 40, Wokowice):
+  Gaspar Latocha (b. ca. 1745, d. 16 Dec 1805) × Anna; three children buried 9, 15, 16 Mar 1798.
+  → Martinus Latocha bapt. 6 Oct 1783 (6VS1-3JQK), d. 21 Jun 1849 house 40 (6VST-DKRC; wife "Marianna Drelicharz"; another index has Martinus × Marianna Kwaśniak).
+  → Michael Latocha bapt. 27 Sep 1806 house 40 (6V3N-2MJV), m. 18 Feb 1828 (6VSB-TX7T; age 22, house 40, Wokowice) Marianna (15), dau. of Joannes Budzioch;
+    d. 10 Mar 1870. Marianna Budzioch bapt. 3 Jun 1813 house 40 (6V3K-S7P4), parents Joannes Budzioch & Agnes; d. 19 Oct 1880 house 40 (6VST-8WSX).
+  → **Marianna Latocha b. 16 Mar 1832, bapt. 17 Mar 1832, house 40** (6V3F-13NR). Siblings: Agnes b. 2 Oct 1835 (m. 9 Nov 1863 Stanislaus Kargol),
+    Andreas 1837–1841, Blasius ca. 1840 (m. 26 Oct 1863 Uszew, Elisabeth Kargol), Veronica ca. 1843 (m. 8 Feb 1869 Adalbertus Stempak),
+    Michael 1844–1866, Martina 1844–1844, Victoria 1846–1865, Hyacinthus 1849–1853.
+- **Rajmond Kargol** (father of András Kargol bapt. 1872 Terézváros, Budapest; wife Teréz Stepanyak): no other record found. Link unknown.
