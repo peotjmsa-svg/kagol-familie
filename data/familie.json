@@ -600,7 +600,7 @@
    "born": "7-3-1901",
    "died": null,
    "place": "Boedapest",
-   "note": "Geboren in de binnenstad van Boedapest (Belváros-Lipótváros, 5e district). Woonde in 1926 op Báthory utca 10 in het 5e district. Trouwde daar op 5 januari 1926 met Mária Fridlik (akte nr. 11). In de akten wisselt zijn achternaam: Kagol, Kágol, Kargol.",
+   "note": "Geboren in de binnenstad van Boedapest (Belváros-Lipótváros, 5e district). Was in 1926 'segédmunkás' (hulparbeider) en woonde op Báthory utca 10 in het 5e district, waar hij op 5 januari 1926 trouwde met Mária Fridlik (akte nr. 11). Hij tekende zelf met 'Kagól András'. Getuigen: Sándor Balázs en Antal Fridrik uit Pesterzsébet. In 1961 leefde hij nog en woonde hij met Mária op Thälmann utca 41/b in het 13e district. Wanneer hij stierf, is nog niet gevonden (niet in de index tot 1980). In de akten wisselt zijn achternaam: Kagol, Kágol, Kargol.",
    "line": "kargol",
    "sources": [
     {
@@ -610,6 +610,10 @@
     {
      "label": "Huwelijk 1926",
      "url": "https://www.familysearch.org/ark:/61903/1:1:QLLC-SLCN"
+    },
+    {
+     "label": "Overlijden echtgenote 1961",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:XSLW-5N71"
     }
    ],
    "spouse": "maria_fridlik"
@@ -760,12 +764,16 @@
    "born": "4-9-1894",
    "died": "21-5-1961",
    "place": "Pilisszántó",
-   "note": "Geboren in Pilisszántó, een Slowaaks dorp in het Pilisgebergte ten noordwesten van Boedapest. Trouwde op 31-jarige leeftijd met András Kagol. In de huwelijksakte staat 'Fridlik, niet Fridrik'.",
+   "note": "Geboren in Pilisszántó, een Slowaaks dorp in het Pilisgebergte ten noordwesten van Boedapest. Trouwde op 31-jarige leeftijd met András Kagol; in 1932 werd haar naam in de huwelijksakte verbeterd van Fridrik in Fridlik. Overleed op 21 mei 1961 aan een beroerte in het ziekenhuis aan de Róbert Károly körút in Boedapest; ze woonde toen met András op Thälmann utca 41/b (13e district).",
    "line": "fridlik",
    "sources": [
     {
      "label": "FamilySearch stamboom G3S4-4TB",
      "url": "https://www.familysearch.org/tree/person/details/G3S4-4TB"
+    },
+    {
+     "label": "Huwelijk 1926",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:QLLC-SLCN"
     },
     {
      "label": "Overlijden 1961",

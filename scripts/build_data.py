@@ -145,10 +145,13 @@ person("karolina_horvath", "Karolina Horváth", "f", "1897", None, None, fs="G6L
 person("anna_kargol", "Anna Kargol", "f", "28-6-1899", "7-10-1901", "Boedapest", fs="G6LQ-DQD", line=L,
        note="Overleed op tweejarige leeftijd in Újpest.")
 person("andras_kagol", "András Kagol (Kargol)", "m", "7-3-1901", None, "Boedapest", fs="G3S4-W4N", line=L,
-       note="Geboren in de binnenstad van Boedapest (Belváros-Lipótváros, 5e district). Woonde in 1926 op Báthory utca 10 "
-            "in het 5e district. Trouwde daar op 5 januari 1926 met Mária Fridlik (akte nr. 11). In de akten wisselt "
-            "zijn achternaam: Kagol, Kágol, Kargol.",
-       recs=[("Huwelijk 1926", "QLLC-SLCN")])
+       note="Geboren in de binnenstad van Boedapest (Belváros-Lipótváros, 5e district). Was in 1926 'segédmunkás' "
+            "(hulparbeider) en woonde op Báthory utca 10 in het 5e district, waar hij op 5 januari 1926 trouwde met "
+            "Mária Fridlik (akte nr. 11). Hij tekende zelf met 'Kagól András'. Getuigen: Sándor Balázs en Antal Fridrik "
+            "uit Pesterzsébet. In 1961 leefde hij nog en woonde hij met Mária op Thälmann utca 41/b in het 13e district. "
+            "Wanneer hij stierf, is nog niet gevonden (niet in de index tot 1980). In de akten wisselt zijn achternaam: "
+            "Kagol, Kágol, Kargol.",
+       recs=[("Huwelijk 1926", "QLLC-SLCN"), ("Overlijden echtgenote 1961", "XSLW-5N71")])
 person("maria_kargol", "Mária Kargol", "f", "12-6-1903", None, "Bánhida", fs="GDRM-J7G", line=L,
        note="Geboren in Bánhida (nu Tatabánya), ruim 50 km van Boedapest; waarom het gezin daar toen was, is onbekend. Trouwde op 20 oktober 1928 in Boedapest met "
             "Ferenc Schneider (1904–1963). Zoon Paul (geb. 21-5-1939 Boedapest) vertrok in 1957 naar de Verenigde Staten; "
@@ -200,8 +203,10 @@ person("erzsebet_kunyik", "Erzsébet Kunyik", "f", None, None, "Pilisszántó", 
             "komt, is nog niet bewezen.")
 person("maria_fridlik", "Mária Fridlik", "f", "4-9-1894", "21-5-1961", "Pilisszántó", fs="G3S4-4TB", line=F,
        note="Geboren in Pilisszántó, een Slowaaks dorp in het Pilisgebergte ten noordwesten van Boedapest. "
-            "Trouwde op 31-jarige leeftijd met András Kagol. In de huwelijksakte staat 'Fridlik, niet Fridrik'.",
-       recs=[("Overlijden 1961", "XSLW-5N71")])
+            "Trouwde op 31-jarige leeftijd met András Kagol; in 1932 werd haar naam in de huwelijksakte verbeterd van "
+            "Fridrik in Fridlik. Overleed op 21 mei 1961 aan een beroerte in het ziekenhuis aan de Róbert Károly körút in "
+            "Boedapest; ze woonde toen met András op Thälmann utca 41/b (13e district).",
+       recs=[("Huwelijk 1926", "QLLC-SLCN"), ("Overlijden 1961", "XSLW-5N71")])
 
 # --- Bán / Zele (Szabolcs) ---
 B = "ban"

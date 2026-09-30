@@ -194,3 +194,21 @@ surname on baptisms where FamilySearch does not. Results show max. ~50 rows per 
   The written owner registers (2.4 op 4122 of 1865, op 5049 of 1847–1880; 2.2 sp 1361) have **no scans** yet.
 - Also in the archive (no scans): testament of Aniela Kargul, Wokowice 1942 (29/4277/0/8/626).
 - Drafts for Hornyak.Balazs and for the parish/diocesan archive: `onderzoek/brieven.md` (not sent).
+
+## Round 6 (2026-09-30): András Kagol
+- Message sent via FamilySearch chat to **Hornyak.Balazs** (English + short Hungarian; text in brieven.md), signed "Thijn".
+  While opening chat, FamilySearch asked for a member-directory preference; the "not in directory" choice could not be clicked by
+  script and the dialog closed – the user should check Settings → directory preference.
+- **Scans of Hungarian civil records are viewable** (not locked): image URL
+  `https://sg30p0.familysearch.org/service/records/storage/deepzoomcloud/dz/v1/3:1:<image id>/dist.jpg` (fetch in logged-in browser);
+  image id from the record page ("VIEW ORIGINAL DOCUMENT", ark:/61903/3:1:...).
+- **Marriage 5 Jan 1926**, Budapest (register of district V/VI?), entry 11 (image 3:1:S3HT-6SPS-D8T): "Kagol András, segédmunkás, r.kath",
+  b. Budapest 1901 márc. 7, lives Budapest V Báthory u. 10; parents Kagol János, Savrnoch Zsuzsanna. Bride "Fridrik Mária", r.kath,
+  b. Pilisszántó (Pest m.) 1894 szept. 4, lives Báthory u. 10; parents Fridrik István, néhai Kunyik Erzsébet (mother already dead in 1926).
+  Witnesses: Balázs Sándor (Budapest VI, Vilmos császár út 31) and Fridrik Antal (Pesterzsébet, Csillag u. 14). Registrar Weiland József.
+  Signed "Kagól András s.k.". Margin: name of bride and her father corrected to "Fridlik" (1931/1932 decision).
+- **Death of Mária Fridlik**: entry 612, Budapest XIII, died 21 May 1961 at Róbert Károly körút 84 (hospital), cause "agyvérzés"
+  (stroke); "Kágol Andrásné Fridlik Mária", married (férjes) – **András alive in 1961**; residence Budapest XIII, Thälmann u. 41/b;
+  parents néhai Fridlik István, néhai Kunyik Erzsébet; married Budapest VI 1926. Registered 22 May 1961 (written notice).
+- András's death: not in the FS index up to 1980 (searched Kagol/Kágol/Kargol/Kargul András). Next: browse Budapest XIII death
+  registers 1961–1980 (images viewable) or grave finders; he may have died after 1980.
