@@ -284,6 +284,17 @@ SPOUSE = {"zsofia_kargol": "lajos_ambrus", "szaniszlo_kargol": "karolina_horvath
           "miklos_kargul": "erzsebet_toth", "andras_kagol": "maria_fridlik", "jozsef_ban": "margit_borbely",
           "zsuzsanna_savrnoch": "janos_kargol", "ferenc_kargol": "maria_latocha", "laszlo_ban": "dochter_kagol"}
 
+# The site shows only the Kagol/Kargol family and the Bán line (user's choice, 2026-09-30). The other lines stay in the
+# research notes: parents and siblings of Zsuzsanna Savrnoch, Mária Fridlik and Margit Borbély are left out here.
+HIDDEN_COUPLES = {"c_savrnoch_chovan", "c_chovan_siroky", "c_fridlik_kunyik", "c_borbely_csernai", "c_borbely_berecz"}
+for cid in HIDDEN_COUPLES:
+    c = C.pop(cid)
+    for pid in [c["h"], c["w"]] + [k for k in c["children"] if k not in (
+            "zsuzsanna_savrnoch", "maria_fridlik", "margit_borbely")]:
+        P.pop(pid, None)
+for c in C.values():
+    c["parents"] = [x if x not in HIDDEN_COUPLES else None for x in c["parents"]]
+
 for cid, c in C.items():
     c["id"] = cid
 for pid, sp in SPOUSE.items():

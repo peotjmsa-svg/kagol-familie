@@ -684,70 +684,6 @@
     }
    ]
   },
-  "mihaly_savrnoch": {
-   "id": "mihaly_savrnoch",
-   "name": "Mihály Savrnoch",
-   "sex": "m",
-   "born": "ca. 1830",
-   "died": "24-4-1897",
-   "place": "Lúčky",
-   "note": "Geboren in Lúčky in de streek Liptov (nu Slowakije). Kwam tussen 1880 en 1883 met zijn gezin naar Boedapest. Overleed op Népszínház utca 55 in het 8e district.",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom L75F-18V",
-     "url": "https://www.familysearch.org/tree/person/details/L75F-18V"
-    }
-   ]
-  },
-  "maria_chovan": {
-   "id": "maria_chovan",
-   "name": "Mária Chovan",
-   "sex": "f",
-   "born": "26-4-1849",
-   "died": "21-1-1924",
-   "place": "Lúčky",
-   "note": "Gedoopt in Lúčky op 26 april 1849, dochter van András Chovan en Mária Siroky. Overleed in Pesterzsébet.",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom L75F-18K",
-     "url": "https://www.familysearch.org/tree/person/details/L75F-18K"
-    }
-   ]
-  },
-  "andras_chovan": {
-   "id": "andras_chovan",
-   "name": "András Chovan",
-   "sex": "m",
-   "born": null,
-   "died": null,
-   "place": "Lúčky",
-   "note": "",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom G6GX-Q1N",
-     "url": "https://www.familysearch.org/tree/person/details/G6GX-Q1N"
-    }
-   ]
-  },
-  "maria_siroky": {
-   "id": "maria_siroky",
-   "name": "Mária Siroky",
-   "sex": "f",
-   "born": null,
-   "died": null,
-   "place": "Lúčky",
-   "note": "",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom G6GX-DKJ",
-     "url": "https://www.familysearch.org/tree/person/details/G6GX-DKJ"
-    }
-   ]
-  },
   "zsuzsanna_savrnoch": {
    "id": "zsuzsanna_savrnoch",
    "name": "Zsuzsanna Savrnoch",
@@ -772,102 +708,6 @@
     }
    ],
    "spouse": "janos_kargol"
-  },
-  "anna_savrnoch": {
-   "id": "anna_savrnoch",
-   "name": "Anna Savrnoch",
-   "sex": "f",
-   "born": "27-9-1877",
-   "died": "1919",
-   "place": "Lúčky",
-   "note": "Trouwde op 11 juni 1899 in Boedapest met Géza Giczy (geb. 1876); vier kinderen.",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom LY1H-P8Y",
-     "url": "https://www.familysearch.org/tree/person/details/LY1H-P8Y"
-    }
-   ]
-  },
-  "jozsef_savrnoch": {
-   "id": "jozsef_savrnoch",
-   "name": "József Savrnoch",
-   "sex": "m",
-   "born": "14-3-1880",
-   "died": "28-11-1903",
-   "place": "Lúčky",
-   "note": "Overleed op 23-jarige leeftijd in Boedapest (Teleki tér 25).",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom LY1H-G83",
-     "url": "https://www.familysearch.org/tree/person/details/LY1H-G83"
-    }
-   ]
-  },
-  "maria_savrnoch": {
-   "id": "maria_savrnoch",
-   "name": "Mária Savrnoch",
-   "sex": "f",
-   "born": "6-12-1883",
-   "died": null,
-   "place": "Boedapest",
-   "note": "Het eerste kind dat in Boedapest geboren werd; gedoopt in de Terézváros-parochie.",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom L75F-18J",
-     "url": "https://www.familysearch.org/tree/person/details/L75F-18J"
-    }
-   ]
-  },
-  "janos_savrnoch": {
-   "id": "janos_savrnoch",
-   "name": "János Savrnoch",
-   "sex": "m",
-   "born": "9-3-1885",
-   "died": "9-4-1960",
-   "place": "Boedapest",
-   "note": "Trouwde in 1914 met Erzsébet Karaffa. Woonde op het eind in Kacsa utca 9 (2e district).",
-   "line": "savrnoch",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom G6L9-FZV",
-     "url": "https://www.familysearch.org/tree/person/details/G6L9-FZV"
-    }
-   ]
-  },
-  "istvan_fridlik": {
-   "id": "istvan_fridlik",
-   "name": "István Fridlik",
-   "sex": "m",
-   "born": null,
-   "died": null,
-   "place": "Pilisszántó",
-   "note": "",
-   "line": "fridlik",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom G3S4-JRQ",
-     "url": "https://www.familysearch.org/tree/person/details/G3S4-JRQ"
-    }
-   ]
-  },
-  "erzsebet_kunyik": {
-   "id": "erzsebet_kunyik",
-   "name": "Erzsébet Kunyik",
-   "sex": "f",
-   "born": null,
-   "died": null,
-   "place": "Pilisszántó",
-   "note": "De familie Kunyik woonde al vóór 1850 in Tinnye, het buurdorp van Pilisszántó. Of Erzsébet daar vandaan komt, is nog niet bewezen.",
-   "line": "fridlik",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom LH5Q-HGK",
-     "url": "https://www.familysearch.org/tree/person/details/LH5Q-HGK"
-    }
-   ]
   },
   "maria_fridlik": {
    "id": "maria_fridlik",
@@ -1071,70 +911,6 @@
     }
    ]
   },
-  "janos_borbely": {
-   "id": "janos_borbely",
-   "name": "János Borbély",
-   "sex": "m",
-   "born": null,
-   "died": null,
-   "place": null,
-   "note": "",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GXMS-MPZ",
-     "url": "https://www.familysearch.org/tree/person/details/GXMS-MPZ"
-    }
-   ]
-  },
-  "zsuzsanna_berecz": {
-   "id": "zsuzsanna_berecz",
-   "name": "Zsuzsánna Berecz",
-   "sex": "f",
-   "born": null,
-   "died": null,
-   "place": null,
-   "note": "",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GXM9-B3G",
-     "url": "https://www.familysearch.org/tree/person/details/GXM9-B3G"
-    }
-   ]
-  },
-  "sandor_borbely": {
-   "id": "sandor_borbely",
-   "name": "Sándor Borbély",
-   "sex": "m",
-   "born": "19-5-1887",
-   "died": null,
-   "place": null,
-   "note": "Trouwde op 29 november 1910 in Vasmegyer (Szabolcs) met Karolina Csernai. Het gezin woonde later in Nyírbogdány.",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GJGV-STB",
-     "url": "https://www.familysearch.org/tree/person/details/GJGV-STB"
-    }
-   ]
-  },
-  "karolina_csernai": {
-   "id": "karolina_csernai",
-   "name": "Karolina Csernai",
-   "sex": "f",
-   "born": "1892",
-   "died": null,
-   "place": null,
-   "note": "",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom LCSX-HVZ",
-     "url": "https://www.familysearch.org/tree/person/details/LCSX-HVZ"
-    }
-   ]
-  },
   "margit_borbely": {
    "id": "margit_borbely",
    "name": "Margit Borbély",
@@ -1152,70 +928,6 @@
     {
      "label": "Huwelijk 1927",
      "url": "https://www.familysearch.org/ark:/61903/1:1:6V1T-7LBS"
-    }
-   ]
-  },
-  "julianna_borbely": {
-   "id": "julianna_borbely",
-   "name": "Julianna Borbély",
-   "sex": "f",
-   "born": "1911",
-   "died": "30-9-1911",
-   "place": "Vasmegyer",
-   "note": "",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GJGV-9YK",
-     "url": "https://www.familysearch.org/tree/person/details/GJGV-9YK"
-    }
-   ]
-  },
-  "sandor_borbely_1913": {
-   "id": "sandor_borbely_1913",
-   "name": "Sándor Borbély",
-   "sex": "m",
-   "born": "19-11-1913",
-   "died": "1997",
-   "place": "Nyírbogdány",
-   "note": "",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GJGV-MCG",
-     "url": "https://www.familysearch.org/tree/person/details/GJGV-MCG"
-    }
-   ]
-  },
-  "ilona_borbely": {
-   "id": "ilona_borbely",
-   "name": "Ilona Borbély",
-   "sex": "f",
-   "born": "1918",
-   "died": "2004",
-   "place": null,
-   "note": "",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GJGJ-TNX",
-     "url": "https://www.familysearch.org/tree/person/details/GJGJ-TNX"
-    }
-   ]
-  },
-  "erzsebet_borbely": {
-   "id": "erzsebet_borbely",
-   "name": "Erzsébet Borbély",
-   "sex": "f",
-   "born": "1921",
-   "died": null,
-   "place": null,
-   "note": "Trouwde op 4 september 1939 in Nyírbogdány met István Erős.",
-   "line": "borbely",
-   "sources": [
-    {
-     "label": "FamilySearch stamboom GJGV-79T",
-     "url": "https://www.familysearch.org/tree/person/details/GJGV-79T"
     }
    ]
   },
@@ -1269,7 +981,7 @@
    ],
    "parents": [
     "c_ban_zele",
-    "c_borbely_csernai"
+    null
    ],
    "id": "c_ban_borbely"
   },
@@ -1282,7 +994,7 @@
    ],
    "parents": [
     "c_kargol_savrnoch",
-    "c_fridlik_kunyik"
+    null
    ],
    "id": "c_kagol_fridlik"
   },
@@ -1303,23 +1015,6 @@
    ],
    "id": "c_ban_zele"
   },
-  "c_borbely_csernai": {
-   "h": "sandor_borbely",
-   "w": "karolina_csernai",
-   "marr": "29-11-1910, Vasmegyer",
-   "children": [
-    "margit_borbely",
-    "julianna_borbely",
-    "sandor_borbely_1913",
-    "ilona_borbely",
-    "erzsebet_borbely"
-   ],
-   "parents": [
-    "c_borbely_berecz",
-    null
-   ],
-   "id": "c_borbely_csernai"
-  },
   "c_kargol_savrnoch": {
    "h": "janos_kargol",
    "w": "zsuzsanna_savrnoch",
@@ -1336,22 +1031,9 @@
    ],
    "parents": [
     "c_kargol_latocha",
-    "c_savrnoch_chovan"
-   ],
-   "id": "c_kargol_savrnoch"
-  },
-  "c_fridlik_kunyik": {
-   "h": "istvan_fridlik",
-   "w": "erzsebet_kunyik",
-   "marr": null,
-   "children": [
-    "maria_fridlik"
-   ],
-   "parents": [
-    null,
     null
    ],
-   "id": "c_fridlik_kunyik"
+   "id": "c_kargol_savrnoch"
   },
   "c_ban_hagymasi": {
    "h": "sandor_ban",
@@ -1378,19 +1060,6 @@
     null
    ],
    "id": "c_zele_kovacs"
-  },
-  "c_borbely_berecz": {
-   "h": "janos_borbely",
-   "w": "zsuzsanna_berecz",
-   "marr": null,
-   "children": [
-    "sandor_borbely"
-   ],
-   "parents": [
-    null,
-    null
-   ],
-   "id": "c_borbely_berecz"
   },
   "c_kargol_latocha": {
    "h": "ferenc_kargol",
@@ -1524,36 +1193,6 @@
     null
    ],
    "id": "c_lis"
-  },
-  "c_savrnoch_chovan": {
-   "h": "mihaly_savrnoch",
-   "w": "maria_chovan",
-   "marr": null,
-   "children": [
-    "zsuzsanna_savrnoch",
-    "anna_savrnoch",
-    "jozsef_savrnoch",
-    "maria_savrnoch",
-    "janos_savrnoch"
-   ],
-   "parents": [
-    null,
-    "c_chovan_siroky"
-   ],
-   "id": "c_savrnoch_chovan"
-  },
-  "c_chovan_siroky": {
-   "h": "andras_chovan",
-   "w": "maria_siroky",
-   "marr": null,
-   "children": [
-    "maria_chovan"
-   ],
-   "parents": [
-    null,
-    null
-   ],
-   "id": "c_chovan_siroky"
   }
  },
  "root": "c_root"

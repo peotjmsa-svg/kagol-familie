@@ -20,10 +20,7 @@
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const LINES = {
     kargol: ["Kagol / Kargol", "Wokowice"],
-    savrnoch: ["Savrnoch", "Lúčky"],
-    fridlik: ["Fridlik", "Pilisszántó"],
     ban: ["Bán", "Ibrány"],
-    borbely: ["Borbély", "Nyírbogdány"],
   };
   const map = L.map("map").setView([48.3, 19.8], 7);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -46,17 +43,17 @@
       const extra = {
         "Wokowice": "Huis nr. 57: hier woonden de Kargols minstens van 1806 tot 1923, vier generaties lang. János Kargol werd hier in 1867 geboren.",
         "Szczepanów": "Parochiekerk van de Kargols uit Wokowice: hier werden ze gedoopt, getrouwd en begraven.",
-        "Tinnye": "Familie Kunyik woonde hier al vóór 1850 (begraafakten 1847–1888); Terézia Fridlik trouwde hier in 1850. Het dorp dat in de familie werd onthouden.",
         "Újpest": "János Kargol en gezin woonden in 1901 op Váci út 53. Anna Kargol overleed hier in 1901.",
-        "Pesterzsébet": "Zsófia Kargol trouwde hier in 1915. Mária Chovan overleed hier in 1924.",
+        "Pesterzsébet": "Zsófia Kargol trouwde hier in 1915.",
         "Nagyhalász": "István Bán en Borbála Zele trouwden hier op 9 januari 1896.",
-        "Vasmegyer": "Sándor Borbély en Karolina Csernai trouwden hier op 29 november 1910.",
         "Dombrád": "Het zoontje József Bán overleed hier in 1901.",
         "Várpalota": "Miklós Kargul woonde hier rond 1931.",
         "Budapest": "Hier kwamen alle takken samen. János Kargol woonde in het 8e en 7e district; András en Mária trouwden in het 5e district.",
       };
       Object.entries(pl).forEach(([name, ll]) => {
         if (!ll) return;
+        const ppl0 = (byPlace[name] || byPlace[name === "Budapest" ? "Boedapest" : name] || []);
+        if (!ppl0.length && !extra[name] && name !== "Budapest") return; // only places that matter for the Kagol/Bán story
         const ppl = (byPlace[name] || byPlace[name === "Budapest" ? "Boedapest" : name] || []);
         const line = ppl[0] ? ppl[0].line : "muted";
         const list = ppl.map((p) => `<li>${p.name}${p.born ? " (" + String(p.born).split("-").pop() + ")" : ""}</li>`).join("");
