@@ -1,0 +1,1101 @@
+{
+ "people": {
+  "ferenc_kargol": {
+   "id": "ferenc_kargol",
+   "name": "Ferenc Kargol",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Szczepanów",
+   "note": "Woonde in Szczepanów, een dorp bij Brzesko in Galicië (toen Oostenrijk, nu Polen).",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GQZ4-NK8",
+     "url": "https://www.familysearch.org/tree/person/details/GQZ4-NK8"
+    }
+   ]
+  },
+  "maria_latocha": {
+   "id": "maria_latocha",
+   "name": "Mária Latocha",
+   "sex": "f",
+   "born": "1833",
+   "died": "25-4-1872",
+   "place": "Szczepanów",
+   "note": "Overleed op 25 april 1872 in Szczepanów en werd daar op 27 april begraven. Ze werd maar 39.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GQZ4-JWC",
+     "url": "https://www.familysearch.org/tree/person/details/GQZ4-JWC"
+    }
+   ]
+  },
+  "janos_kargol": {
+   "id": "janos_kargol",
+   "name": "János Lőrinc Kargol",
+   "sex": "m",
+   "born": "6-6-1867",
+   "died": "25-8-1936",
+   "place": "Szczepanów",
+   "note": "Geboren in Szczepanów (Galicië). Trok naar Boedapest en werkte daar als hulpje van metselaars (kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks onderdaan uit Galicië, met woonrecht in Szczepanów'. Woonde in Boedapest VIII (Köztemető út 87, 1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer 1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LY13-M7K",
+     "url": "https://www.familysearch.org/tree/person/details/LY13-M7K"
+    }
+   ]
+  },
+  "ferenc_kargol_1869": {
+   "id": "ferenc_kargol_1869",
+   "name": "Ferenc Kargol",
+   "sex": "m",
+   "born": "1869",
+   "died": null,
+   "place": "Szczepanów",
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G569-BKC",
+     "url": "https://www.familysearch.org/tree/person/details/G569-BKC"
+    }
+   ]
+  },
+  "ferenc_kargol_1870": {
+   "id": "ferenc_kargol_1870",
+   "name": "Ferenc Kargol",
+   "sex": "m",
+   "born": "1870",
+   "died": "1870",
+   "place": "Szczepanów",
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G56S-3MB",
+     "url": "https://www.familysearch.org/tree/person/details/G56S-3MB"
+    }
+   ]
+  },
+  "henrik_kargol": {
+   "id": "henrik_kargol",
+   "name": "Henrik Kargol",
+   "sex": "m",
+   "born": "1871",
+   "died": "1871",
+   "place": "Szczepanów",
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G56S-WZ8",
+     "url": "https://www.familysearch.org/tree/person/details/G56S-WZ8"
+    }
+   ]
+  },
+  "jozsef_kargol": {
+   "id": "jozsef_kargol",
+   "name": "József Kargol",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Szczepanów",
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G56S-75Q",
+     "url": "https://www.familysearch.org/tree/person/details/G56S-75Q"
+    }
+   ]
+  },
+  "zsofia_kargol": {
+   "id": "zsofia_kargol",
+   "name": "Zsófia Kargol",
+   "sex": "f",
+   "born": "10-1-1896",
+   "died": "1993",
+   "place": "Boedapest",
+   "note": "Trouwde op 26 april 1915 in Pesterzsébet met Lajos Ambrus (geb. 1885). Kinderen: László (1912), Teréz (15-10-1915), Károly (1917) en György (1925). Werd 97.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6LZ-1J3",
+     "url": "https://www.familysearch.org/tree/person/details/G6LZ-1J3"
+    },
+    {
+     "label": "Huwelijk 1915",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V9P-Y4JZ"
+    },
+    {
+     "label": "Geboorte dochter Teréz 1915",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V1L-781G"
+    }
+   ],
+   "spouse": "lajos_ambrus"
+  },
+  "lajos_ambrus": {
+   "id": "lajos_ambrus",
+   "name": "Lajos Ambrus",
+   "sex": "m",
+   "born": "1885",
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6LZ-RLS",
+     "url": "https://www.familysearch.org/tree/person/details/G6LZ-RLS"
+    }
+   ]
+  },
+  "szaniszlo_kargol": {
+   "id": "szaniszlo_kargol",
+   "name": "Szaniszló Kargol",
+   "sex": "m",
+   "born": "8-5-1897",
+   "died": "12-7-1976",
+   "place": "Boedapest",
+   "note": "Zijn naam is de Hongaarse vorm van Stanislaus, de heilige die in Szczepanów geboren is, het dorp van zijn vader. Trouwde op 20 mei 1918 in Boedapest met Karolina Horváth (geb. 1897). Zoon László, geboren 19-7-1920.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6L7-4H2",
+     "url": "https://www.familysearch.org/tree/person/details/G6L7-4H2"
+    },
+    {
+     "label": "Overlijden 1976",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6J3Z-CHQ5"
+    },
+    {
+     "label": "Geboorte zoon László 1920",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6JBS-4255"
+    }
+   ],
+   "spouse": "karolina_horvath"
+  },
+  "karolina_horvath": {
+   "id": "karolina_horvath",
+   "name": "Karolina Horváth",
+   "sex": "f",
+   "born": "1897",
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6L7-94B",
+     "url": "https://www.familysearch.org/tree/person/details/G6L7-94B"
+    }
+   ]
+  },
+  "anna_kargol": {
+   "id": "anna_kargol",
+   "name": "Anna Kargol",
+   "sex": "f",
+   "born": "28-6-1899",
+   "died": "7-10-1901",
+   "place": "Boedapest",
+   "note": "Overleed op tweejarige leeftijd in Újpest.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6LQ-DQD",
+     "url": "https://www.familysearch.org/tree/person/details/G6LQ-DQD"
+    }
+   ]
+  },
+  "andras_kagol": {
+   "id": "andras_kagol",
+   "name": "András Kagol (Kargol)",
+   "sex": "m",
+   "born": "7-3-1901",
+   "died": null,
+   "place": "Boedapest",
+   "note": "Geboren in de binnenstad van Boedapest (Belváros-Lipótváros, 5e district). Woonde in 1926 op Báthory utca 10 in het 5e district. Trouwde daar op 5 januari 1926 met Mária Fridlik (akte nr. 11). In de akten wisselt zijn achternaam: Kagol, Kágol, Kargol.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G3S4-W4N",
+     "url": "https://www.familysearch.org/tree/person/details/G3S4-W4N"
+    },
+    {
+     "label": "Huwelijk 1926",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:QLLC-SLCN"
+    }
+   ],
+   "spouse": "maria_fridlik"
+  },
+  "maria_kargol": {
+   "id": "maria_kargol",
+   "name": "Mária Kargol",
+   "sex": "f",
+   "born": "12-6-1903",
+   "died": null,
+   "place": "Bánhida",
+   "note": "Geboren in Bánhida (nu Tatabánya), ruim 50 km van Boedapest; waarom het gezin daar toen was, is onbekend. Trouwde op 20 oktober 1928 in Boedapest met Ferenc Schneider (1904–1963). Zoon Paul (geb. 21-5-1939 Boedapest) vertrok in 1957 naar de Verenigde Staten; zoon Ferenc stierf als baby in mei 1945.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GDRM-J7G",
+     "url": "https://www.familysearch.org/tree/person/details/GDRM-J7G"
+    },
+    {
+     "label": "Overlijden zoontje Ferenc 1945",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:QP5Y-36DB"
+    },
+    {
+     "label": "Zoon Paul in de VS",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6K7G-DX6D"
+    }
+   ],
+   "spouse": "ferenc_schneider"
+  },
+  "ferenc_schneider": {
+   "id": "ferenc_schneider",
+   "name": "Ferenc Schneider",
+   "sex": "m",
+   "born": "1904",
+   "died": "1963",
+   "place": null,
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GDRM-VH3",
+     "url": "https://www.familysearch.org/tree/person/details/GDRM-VH3"
+    }
+   ]
+  },
+  "miklos_kargul": {
+   "id": "miklos_kargul",
+   "name": "Miklós Kargul",
+   "sex": "m",
+   "born": "5-12-1908",
+   "died": "3-7-1985",
+   "place": "Kispest",
+   "note": "Geboren in Kispest (Petőfi utca 148). Op zijn geboorteakte staat: 'het kind is, net als zijn vader, Oostenrijks onderdaan uit Galicië met woonrecht in Szczepanów'. Woonde rond 1931 in Várpalota met Terézia Oszvári; trouwde op 27 november 1937 in Boedapest met Erzsébet Tóth (1914–1992). Zoon Miklós (1938–2016).",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LJ1J-RHB",
+     "url": "https://www.familysearch.org/tree/person/details/LJ1J-RHB"
+    }
+   ],
+   "spouse": "erzsebet_toth"
+  },
+  "erzsebet_toth": {
+   "id": "erzsebet_toth",
+   "name": "Erzsébet Tóth",
+   "sex": "f",
+   "born": "1914",
+   "died": "1992",
+   "place": null,
+   "note": "",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LY1Q-H59",
+     "url": "https://www.familysearch.org/tree/person/details/LY1Q-H59"
+    }
+   ]
+  },
+  "ilona_kargol": {
+   "id": "ilona_kargol",
+   "name": "Ilona Kargol",
+   "sex": "f",
+   "born": "1910",
+   "died": "19-2-1911",
+   "place": "Kispest",
+   "note": "Overleed drie maanden oud in Kispest.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6LQ-LY8",
+     "url": "https://www.familysearch.org/tree/person/details/G6LQ-LY8"
+    },
+    {
+     "label": "Overlijden 1911",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V12-53YD"
+    }
+   ]
+  },
+  "zoon_kargol_1914": {
+   "id": "zoon_kargol_1914",
+   "name": "Zoon Kargol",
+   "sex": "m",
+   "born": "10-9-1914",
+   "died": "10-9-1914",
+   "place": "Boedapest",
+   "note": "Doodgeboren zoon.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom PS4S-B57",
+     "url": "https://www.familysearch.org/tree/person/details/PS4S-B57"
+    },
+    {
+     "label": "Geboorteakte 1914",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6BN2-HBBJ"
+    }
+   ]
+  },
+  "mihaly_savrnoch": {
+   "id": "mihaly_savrnoch",
+   "name": "Mihály Savrnoch",
+   "sex": "m",
+   "born": "ca. 1830",
+   "died": "24-4-1897",
+   "place": "Lúčky",
+   "note": "Geboren in Lúčky in de streek Liptov (nu Slowakije). Kwam tussen 1880 en 1883 met zijn gezin naar Boedapest. Overleed op Népszínház utca 55 in het 8e district.",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom L75F-18V",
+     "url": "https://www.familysearch.org/tree/person/details/L75F-18V"
+    }
+   ]
+  },
+  "maria_chovan": {
+   "id": "maria_chovan",
+   "name": "Mária Chovan",
+   "sex": "f",
+   "born": "26-4-1849",
+   "died": "21-1-1924",
+   "place": "Lúčky",
+   "note": "Gedoopt in Lúčky op 26 april 1849, dochter van András Chovan en Mária Siroky. Overleed in Pesterzsébet.",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom L75F-18K",
+     "url": "https://www.familysearch.org/tree/person/details/L75F-18K"
+    }
+   ]
+  },
+  "andras_chovan": {
+   "id": "andras_chovan",
+   "name": "András Chovan",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Lúčky",
+   "note": "",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6GX-Q1N",
+     "url": "https://www.familysearch.org/tree/person/details/G6GX-Q1N"
+    }
+   ]
+  },
+  "maria_siroky": {
+   "id": "maria_siroky",
+   "name": "Mária Siroky",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": "Lúčky",
+   "note": "",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6GX-DKJ",
+     "url": "https://www.familysearch.org/tree/person/details/G6GX-DKJ"
+    }
+   ]
+  },
+  "zsuzsanna_savrnoch": {
+   "id": "zsuzsanna_savrnoch",
+   "name": "Zsuzsanna Savrnoch",
+   "sex": "f",
+   "born": "30-9-1875",
+   "died": "19-10-1945",
+   "place": "Lúčky",
+   "note": "Geboren in Lúčky en daar op 2 oktober 1875 gedoopt. Kwam als kind naar Boedapest. Kreeg met János Kargol acht kinderen. Overleed in oktober 1945 in het 12e district van Boedapest, 71 jaar oud. In akten ook Savernoch, Savernok, Saverno of Saurnoch genoemd.",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LY1S-PL6",
+     "url": "https://www.familysearch.org/tree/person/details/LY1S-PL6"
+    },
+    {
+     "label": "Overlijden 1945",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:QPLV-Q91D"
+    }
+   ],
+   "spouse": "janos_kargol"
+  },
+  "anna_savrnoch": {
+   "id": "anna_savrnoch",
+   "name": "Anna Savrnoch",
+   "sex": "f",
+   "born": "27-9-1877",
+   "died": "1919",
+   "place": "Lúčky",
+   "note": "Trouwde op 11 juni 1899 in Boedapest met Géza Giczy (geb. 1876); vier kinderen.",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LY1H-P8Y",
+     "url": "https://www.familysearch.org/tree/person/details/LY1H-P8Y"
+    }
+   ]
+  },
+  "jozsef_savrnoch": {
+   "id": "jozsef_savrnoch",
+   "name": "József Savrnoch",
+   "sex": "m",
+   "born": "14-3-1880",
+   "died": "28-11-1903",
+   "place": "Lúčky",
+   "note": "Overleed op 23-jarige leeftijd in Boedapest (Teleki tér 25).",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LY1H-G83",
+     "url": "https://www.familysearch.org/tree/person/details/LY1H-G83"
+    }
+   ]
+  },
+  "maria_savrnoch": {
+   "id": "maria_savrnoch",
+   "name": "Mária Savrnoch",
+   "sex": "f",
+   "born": "6-12-1883",
+   "died": null,
+   "place": "Boedapest",
+   "note": "Het eerste kind dat in Boedapest geboren werd; gedoopt in de Terézváros-parochie.",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom L75F-18J",
+     "url": "https://www.familysearch.org/tree/person/details/L75F-18J"
+    }
+   ]
+  },
+  "janos_savrnoch": {
+   "id": "janos_savrnoch",
+   "name": "János Savrnoch",
+   "sex": "m",
+   "born": "9-3-1885",
+   "died": "9-4-1960",
+   "place": "Boedapest",
+   "note": "Trouwde in 1914 met Erzsébet Karaffa. Woonde op het eind in Kacsa utca 9 (2e district).",
+   "line": "savrnoch",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G6L9-FZV",
+     "url": "https://www.familysearch.org/tree/person/details/G6L9-FZV"
+    }
+   ]
+  },
+  "istvan_fridlik": {
+   "id": "istvan_fridlik",
+   "name": "István Fridlik",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Pilisszántó",
+   "note": "",
+   "line": "fridlik",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G3S4-JRQ",
+     "url": "https://www.familysearch.org/tree/person/details/G3S4-JRQ"
+    }
+   ]
+  },
+  "erzsebet_kunyik": {
+   "id": "erzsebet_kunyik",
+   "name": "Erzsébet Kunyik",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": "Pilisszántó",
+   "note": "De familie Kunyik woonde al vóór 1850 in Tinnye, het buurdorp van Pilisszántó. Of Erzsébet daar vandaan komt, is nog niet bewezen.",
+   "line": "fridlik",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LH5Q-HGK",
+     "url": "https://www.familysearch.org/tree/person/details/LH5Q-HGK"
+    }
+   ]
+  },
+  "maria_fridlik": {
+   "id": "maria_fridlik",
+   "name": "Mária Fridlik",
+   "sex": "f",
+   "born": "4-9-1894",
+   "died": "21-5-1961",
+   "place": "Pilisszántó",
+   "note": "Geboren in Pilisszántó, een Slowaaks dorp in het Pilisgebergte ten noordwesten van Boedapest. Trouwde op 31-jarige leeftijd met András Kagol. In de huwelijksakte staat 'Fridlik, niet Fridrik'.",
+   "line": "fridlik",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G3S4-4TB",
+     "url": "https://www.familysearch.org/tree/person/details/G3S4-4TB"
+    },
+    {
+     "label": "Overlijden 1961",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:XSLW-5N71"
+    }
+   ]
+  },
+  "sandor_ban": {
+   "id": "sandor_ban",
+   "name": "Sándor Bán",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "Genoemd in huwelijk zoon 1896",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6NK9-HP42"
+    }
+   ]
+  },
+  "julianna_hagymasi": {
+   "id": "julianna_hagymasi",
+   "name": "Juliánna Hagymási",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "ban",
+   "sources": []
+  },
+  "istvan_ban": {
+   "id": "istvan_ban",
+   "name": "István Bán",
+   "sex": "m",
+   "born": "1870",
+   "died": null,
+   "place": "Nagyhalász",
+   "note": "Trouwde op 9 januari 1896 in Nagyhalász (comitaat Szabolcs, Noordoost-Hongarije) met Borbála Zele. Het gezin verhuisde tussen de dorpen van de streek: Nyírbogdány (1896), Dombrád (1901), Nagyhalász (1902), Ibrány (1904).",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GKW8-KGC",
+     "url": "https://www.familysearch.org/tree/person/details/GKW8-KGC"
+    },
+    {
+     "label": "Huwelijk 1896",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6NK9-HP42"
+    }
+   ]
+  },
+  "borbala_zele": {
+   "id": "borbala_zele",
+   "name": "Borbála Zele",
+   "sex": "f",
+   "born": "1878",
+   "died": null,
+   "place": null,
+   "note": "Dochter van Gáspár Zele en Veronika Kovács. Een Borbála Zele met precies deze ouders werd in 1878 gedoopt in Füzesabony (comitaat Heves); waarschijnlijk is zij het, maar dat is nog niet bewezen.",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GKW8-JMP",
+     "url": "https://www.familysearch.org/tree/person/details/GKW8-JMP"
+    }
+   ]
+  },
+  "gaspar_zele": {
+   "id": "gaspar_zele",
+   "name": "Gáspár Zele",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G581-HL7",
+     "url": "https://www.familysearch.org/tree/person/details/G581-HL7"
+    }
+   ]
+  },
+  "veronika_kovacs": {
+   "id": "veronika_kovacs",
+   "name": "Veronika Kovács",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom G581-N8T",
+     "url": "https://www.familysearch.org/tree/person/details/G581-N8T"
+    }
+   ]
+  },
+  "ferencz_ban": {
+   "id": "ferencz_ban",
+   "name": "Ferencz Bán",
+   "sex": "m",
+   "born": "7-5-1896",
+   "died": null,
+   "place": "Nyírbogdány",
+   "note": "",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "Geboorte 1896",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6NVB-BQTQ"
+    }
+   ]
+  },
+  "jozsef_ban_1901": {
+   "id": "jozsef_ban_1901",
+   "name": "József Bán",
+   "sex": "m",
+   "born": null,
+   "died": "29-5-1901",
+   "place": "Dombrád",
+   "note": "Jong gestorven.",
+   "line": "ban",
+   "sources": []
+  },
+  "margit_ban": {
+   "id": "margit_ban",
+   "name": "Margit Bán",
+   "sex": "f",
+   "born": null,
+   "died": "10-9-1902",
+   "place": "Nagyhalász",
+   "note": "Jong gestorven.",
+   "line": "ban",
+   "sources": []
+  },
+  "jozsef_ban": {
+   "id": "jozsef_ban",
+   "name": "József Bán",
+   "sex": "m",
+   "born": "7-1-1904",
+   "died": "15-2-1958",
+   "place": "Ibrány",
+   "note": "Geboren in Ibrány (Szabolcs). Kreeg dezelfde naam als een broertje dat in 1901 was gestorven. Trouwde op 19 maart 1927 met Margit Borbély en verhuisde later naar Boedapest, waar hij in februari 1958 overleed.",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom P6XX-89L",
+     "url": "https://www.familysearch.org/tree/person/details/P6XX-89L"
+    },
+    {
+     "label": "Geboorte 1904",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6NV1-X6WP"
+    },
+    {
+     "label": "Huwelijk 1927",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V1T-7LBS"
+    },
+    {
+     "label": "Overlijden 1958",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6GL3-TVR3"
+    }
+   ],
+   "spouse": "margit_borbely"
+  },
+  "gyorgy_ban": {
+   "id": "gyorgy_ban",
+   "name": "György Bán",
+   "sex": "m",
+   "born": "1914",
+   "died": null,
+   "place": null,
+   "note": "Trouwde op 13 juni 1936 met Anna Csák.",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GKW8-ZXK",
+     "url": "https://www.familysearch.org/tree/person/details/GKW8-ZXK"
+    },
+    {
+     "label": "Huwelijk 1936",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V1T-4P6R"
+    }
+   ]
+  },
+  "janos_borbely": {
+   "id": "janos_borbely",
+   "name": "János Borbély",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GXMS-MPZ",
+     "url": "https://www.familysearch.org/tree/person/details/GXMS-MPZ"
+    }
+   ]
+  },
+  "zsuzsanna_berecz": {
+   "id": "zsuzsanna_berecz",
+   "name": "Zsuzsánna Berecz",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GXM9-B3G",
+     "url": "https://www.familysearch.org/tree/person/details/GXM9-B3G"
+    }
+   ]
+  },
+  "sandor_borbely": {
+   "id": "sandor_borbely",
+   "name": "Sándor Borbély",
+   "sex": "m",
+   "born": "19-5-1887",
+   "died": null,
+   "place": null,
+   "note": "Trouwde op 29 november 1910 in Vasmegyer (Szabolcs) met Karolina Csernai. Het gezin woonde later in Nyírbogdány.",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GJGV-STB",
+     "url": "https://www.familysearch.org/tree/person/details/GJGV-STB"
+    }
+   ]
+  },
+  "karolina_csernai": {
+   "id": "karolina_csernai",
+   "name": "Karolina Csernai",
+   "sex": "f",
+   "born": "1892",
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom LCSX-HVZ",
+     "url": "https://www.familysearch.org/tree/person/details/LCSX-HVZ"
+    }
+   ]
+  },
+  "margit_borbely": {
+   "id": "margit_borbely",
+   "name": "Margit Borbély",
+   "sex": "f",
+   "born": "1909",
+   "died": null,
+   "place": null,
+   "note": "Trouwde op 19 maart 1927 met József Bán; ze was toen ongeveer 18. Volgens de stamboom geboren in 1909, een jaar vóór het huwelijk van haar ouders; dat moet nog gecontroleerd worden.",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom P6XX-LF9",
+     "url": "https://www.familysearch.org/tree/person/details/P6XX-LF9"
+    },
+    {
+     "label": "Huwelijk 1927",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V1T-7LBS"
+    }
+   ]
+  },
+  "julianna_borbely": {
+   "id": "julianna_borbely",
+   "name": "Julianna Borbély",
+   "sex": "f",
+   "born": "1911",
+   "died": "30-9-1911",
+   "place": "Vasmegyer",
+   "note": "",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GJGV-9YK",
+     "url": "https://www.familysearch.org/tree/person/details/GJGV-9YK"
+    }
+   ]
+  },
+  "sandor_borbely_1913": {
+   "id": "sandor_borbely_1913",
+   "name": "Sándor Borbély",
+   "sex": "m",
+   "born": "19-11-1913",
+   "died": "1997",
+   "place": "Nyírbogdány",
+   "note": "",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GJGV-MCG",
+     "url": "https://www.familysearch.org/tree/person/details/GJGV-MCG"
+    }
+   ]
+  },
+  "ilona_borbely": {
+   "id": "ilona_borbely",
+   "name": "Ilona Borbély",
+   "sex": "f",
+   "born": "1918",
+   "died": "2004",
+   "place": null,
+   "note": "",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GJGJ-TNX",
+     "url": "https://www.familysearch.org/tree/person/details/GJGJ-TNX"
+    }
+   ]
+  },
+  "erzsebet_borbely": {
+   "id": "erzsebet_borbely",
+   "name": "Erzsébet Borbély",
+   "sex": "f",
+   "born": "1921",
+   "died": null,
+   "place": null,
+   "note": "Trouwde op 4 september 1939 in Nyírbogdány met István Erős.",
+   "line": "borbely",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GJGV-79T",
+     "url": "https://www.familysearch.org/tree/person/details/GJGV-79T"
+    }
+   ]
+  },
+  "laszlo_ban": {
+   "id": "laszlo_ban",
+   "name": "László Bán",
+   "sex": "m",
+   "born": "1934",
+   "died": "2021",
+   "place": null,
+   "note": "Zoon van József Bán en Margit Borbély. Trouwde met de dochter van András Kagol en Mária Fridlik. Zijn geboorteakte is nog niet gevonden (akten uit de jaren 1930 zijn online nauwelijks doorzoekbaar).",
+   "line": "ban",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom GP82-VG8",
+     "url": "https://www.familysearch.org/tree/person/details/GP82-VG8"
+    }
+   ],
+   "spouse": "dochter_kagol"
+  },
+  "dochter_kagol": {
+   "id": "dochter_kagol",
+   "name": "Dochter van András en Mária",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "Nog levend of recent overleden; daarom zonder naam en data op deze site.",
+   "line": "kargol",
+   "sources": []
+  }
+ },
+ "couples": {
+  "c_root": {
+   "h": "laszlo_ban",
+   "w": "dochter_kagol",
+   "marr": null,
+   "children": [],
+   "parents": [
+    "c_ban_borbely",
+    "c_kagol_fridlik"
+   ],
+   "id": "c_root"
+  },
+  "c_ban_borbely": {
+   "h": "jozsef_ban",
+   "w": "margit_borbely",
+   "marr": "19-3-1927",
+   "children": [
+    "laszlo_ban"
+   ],
+   "parents": [
+    "c_ban_zele",
+    "c_borbely_csernai"
+   ],
+   "id": "c_ban_borbely"
+  },
+  "c_kagol_fridlik": {
+   "h": "andras_kagol",
+   "w": "maria_fridlik",
+   "marr": "5-1-1926, Boedapest",
+   "children": [
+    "dochter_kagol"
+   ],
+   "parents": [
+    "c_kargol_savrnoch",
+    "c_fridlik_kunyik"
+   ],
+   "id": "c_kagol_fridlik"
+  },
+  "c_ban_zele": {
+   "h": "istvan_ban",
+   "w": "borbala_zele",
+   "marr": "9-1-1896, Nagyhalász",
+   "children": [
+    "ferencz_ban",
+    "jozsef_ban_1901",
+    "margit_ban",
+    "jozsef_ban",
+    "gyorgy_ban"
+   ],
+   "parents": [
+    "c_ban_hagymasi",
+    "c_zele_kovacs"
+   ],
+   "id": "c_ban_zele"
+  },
+  "c_borbely_csernai": {
+   "h": "sandor_borbely",
+   "w": "karolina_csernai",
+   "marr": "29-11-1910, Vasmegyer",
+   "children": [
+    "margit_borbely",
+    "julianna_borbely",
+    "sandor_borbely_1913",
+    "ilona_borbely",
+    "erzsebet_borbely"
+   ],
+   "parents": [
+    "c_borbely_berecz",
+    null
+   ],
+   "id": "c_borbely_csernai"
+  },
+  "c_kargol_savrnoch": {
+   "h": "janos_kargol",
+   "w": "zsuzsanna_savrnoch",
+   "marr": "4-8-1895, Boedapest",
+   "children": [
+    "zsofia_kargol",
+    "szaniszlo_kargol",
+    "anna_kargol",
+    "andras_kagol",
+    "maria_kargol",
+    "miklos_kargul",
+    "ilona_kargol",
+    "zoon_kargol_1914"
+   ],
+   "parents": [
+    "c_kargol_latocha",
+    "c_savrnoch_chovan"
+   ],
+   "id": "c_kargol_savrnoch"
+  },
+  "c_fridlik_kunyik": {
+   "h": "istvan_fridlik",
+   "w": "erzsebet_kunyik",
+   "marr": null,
+   "children": [
+    "maria_fridlik"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_fridlik_kunyik"
+  },
+  "c_ban_hagymasi": {
+   "h": "sandor_ban",
+   "w": "julianna_hagymasi",
+   "marr": null,
+   "children": [
+    "istvan_ban"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_ban_hagymasi"
+  },
+  "c_zele_kovacs": {
+   "h": "gaspar_zele",
+   "w": "veronika_kovacs",
+   "marr": null,
+   "children": [
+    "borbala_zele"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_zele_kovacs"
+  },
+  "c_borbely_berecz": {
+   "h": "janos_borbely",
+   "w": "zsuzsanna_berecz",
+   "marr": null,
+   "children": [
+    "sandor_borbely"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_borbely_berecz"
+  },
+  "c_kargol_latocha": {
+   "h": "ferenc_kargol",
+   "w": "maria_latocha",
+   "marr": null,
+   "children": [
+    "janos_kargol",
+    "ferenc_kargol_1869",
+    "ferenc_kargol_1870",
+    "henrik_kargol",
+    "jozsef_kargol"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_kargol_latocha"
+  },
+  "c_savrnoch_chovan": {
+   "h": "mihaly_savrnoch",
+   "w": "maria_chovan",
+   "marr": null,
+   "children": [
+    "zsuzsanna_savrnoch",
+    "anna_savrnoch",
+    "jozsef_savrnoch",
+    "maria_savrnoch",
+    "janos_savrnoch"
+   ],
+   "parents": [
+    null,
+    "c_chovan_siroky"
+   ],
+   "id": "c_savrnoch_chovan"
+  },
+  "c_chovan_siroky": {
+   "h": "andras_chovan",
+   "w": "maria_siroky",
+   "marr": null,
+   "children": [
+    "maria_chovan"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_chovan_siroky"
+  }
+ },
+ "root": "c_root"
+}

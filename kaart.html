@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaart · Familie Bán &amp; Kagol</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="index.html">Familie Bán &amp; Kagol</a>
+  <nav><a href="index.html">Verhaal</a><a href="stamboom.html">Stamboom</a><a class="active" href="kaart.html">Kaart</a><a href="bronnen.html">Bronnen</a></nav>
+</header>
+<main class="wide"><div id="map"></div></main>
+<script>
+(function () {
+  "use strict";
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const LINES = {
+    kargol: ["Kagol / Kargol", "Szczepanów"],
+    savrnoch: ["Savrnoch", "Lúčky"],
+    fridlik: ["Fridlik", "Pilisszántó"],
+    ban: ["Bán", "Ibrány"],
+    borbely: ["Borbély", "Nyírbogdány"],
+  };
+  const map = L.map("map").setView([48.3, 19.8], 7);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 16, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+
+  Promise.all([fetch("data/familie.json").then((r) => r.json()), fetch("data/plaatsen.json").then((r) => r.json())])
+    .then(([data, pl]) => {
+      // Routes to Budapest, one colour per family line
+      Object.entries(LINES).forEach(([line, [label, from]]) => {
+        if (pl[from]) L.polyline([pl[from], pl["Budapest"]], { color: css("--" + line), weight: 4, opacity: .75, dashArray: "8 6" })
+          .bindTooltip(label + ": " + from + " → Boedapest").addTo(map);
+      });
+      // One marker per place with the people linked to it
+      const byPlace = {};
+      Object.values(data.people).forEach((p) => {
+        if (!p.place) return;
+        (byPlace[p.place] = byPlace[p.place] || []).push(p);
+      });
+      const extra = {
+        "Tinnye": "Familie Kunyik woonde hier al vóór 1850 (begraafakten 1847–1888); Terézia Fridlik trouwde hier in 1850. Het dorp dat in de familie werd onthouden.",
+        "Újpest": "János Kargol en gezin woonden in 1901 op Váci út 53. Anna Kargol overleed hier in 1901.",
+        "Pesterzsébet": "Zsófia Kargol trouwde hier in 1915. Mária Chovan overleed hier in 1924.",
+        "Nagyhalász": "István Bán en Borbála Zele trouwden hier op 9 januari 1896.",
+        "Vasmegyer": "Sándor Borbély en Karolina Csernai trouwden hier op 29 november 1910.",
+        "Dombrád": "Het zoontje József Bán overleed hier in 1901.",
+        "Várpalota": "Miklós Kargul woonde hier rond 1931.",
+        "Budapest": "Hier kwamen alle takken samen. János Kargol woonde in het 8e en 7e district; András en Mária trouwden in het 5e district.",
+      };
+      Object.entries(pl).forEach(([name, ll]) => {
+        if (!ll) return;
+        const ppl = (byPlace[name] || byPlace[name === "Budapest" ? "Boedapest" : name] || []);
+        const line = ppl[0] ? ppl[0].line : "muted";
+        const list = ppl.map((p) => `<li>${p.name}${p.born ? " (" + String(p.born).split("-").pop() + ")" : ""}</li>`).join("");
+        const html = `<b>${name === "Budapest" ? "Boedapest" : name}</b>${extra[name] ? `<p style="margin:4px 0">${extra[name]}</p>` : ""}${list ? `<div>Geboren / woonachtig:</div><ul style="margin:2px 0;padding-left:16px">${list}</ul>` : ""}`;
+        L.circleMarker(ll, { radius: name === "Budapest" ? 10 : 7, color: "#fff", weight: 2, fillColor: css("--" + line) || "#888", fillOpacity: .95 })
+          .bindPopup(html).addTo(map);
+      });
+      const legend = L.control({ position: "bottomleft" });
+      legend.onAdd = () => {
+        const d = L.DomUtil.create("div", "legend");
+        d.innerHTML = Object.entries(LINES).map(([k, [lab, from]]) => `<div><span class="sw" style="background:${css("--" + k)}"></span>${lab} (${from})</div>`).join("");
+        return d;
+      };
+      legend.addTo(map);
+    });
+})();
+</script>
+</body>
+</html>
