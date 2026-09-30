@@ -175,3 +175,22 @@ surname on baptisms where FamilySearch does not. Results show max. ~50 rows per 
    has an index (polishorigins.com/galician-cadastre). The site search via script did not work (szukajwarchiwach.pl timed out,
    gov.pl search URL "not found") – open it by hand in the debug Chrome next time. The Josephine cadastre (1785–1788, Bochnia
    circle = opis I of TsDIAL fond 19, Lviv) would show who held house 57 in Casimir's time; availability for Wokowice unknown.
+
+## Round 5 (2026-09-30)
+- **Kargol burials 1784–1815** (FS, 200 results, adults opened for house number): no adult Kargol besides Casimir's family lived at
+  house 57 → Casimir's parents probably died before 1784 (burial books with house numbers). Neighbours: Franciscus Kargol
+  (1741–11 Sep 1789, **house 58**, possible brother); Antonius (1723–31 Mar 1792, house 3 – father of the younger Kazimierz);
+  Adalbertus (1718–1800, house 16); Adalbertus (1737–1802, house 53); Andreas (1734–1804, house 48); Agatha (1724–1796, house 41,
+  dau. of Blasius Kargol); Regina (1752–1803, house 53); Joannes (1749–1809, house 39); Ignatius (1750–1814, house 14);
+  Martinus (1740–1830, house 2). Casimir's children buried: Bartłomiej 24 May 1788 (infant), Józef 2 Aug 1794 (16), Anna 8 May 1798 (4).
+- Geneteka deaths also have a gap 1757–1777 (none indexed) – so both baptisms (before 1772) and deaths (1758–1776) are missing
+  for Casimir's parents' generation. Naming hint only: Casimir's first son was Józef (a Józef Kargol married Jadwiga Cisak in 1732) – unproven.
+- **Cadastre 1847** (szukajwarchiwach.gov.pl, Archiwum Narodowe w Krakowie, Kataster galicyjski **29/280/0/2.1/293**, 14 scans,
+  and 2.1/3398, 8 scans; unit pages /jednostka/-/jednostka/3064583 and 5570318). Full-size scans: thumbnail URL
+  `https://photos.szukajwarchiwach.gov.pl/<hash>_mid` → replace `_mid` by `_max` (fetch in the browser; curl gets a 212-byte block).
+  Scan 5 = coloured sheet II with the village: building numbers in black, parcels in red. **Building 57** stands by the stream
+  (north), 56 and 58 next to it; **building 40** (Latocha) south of the stream, about 150 m away. Assumed to equal the house
+  numbers of the church books (the numbers run consecutively along the road) – not proven. Crop on the site: assets/img/wokowice1847.jpg.
+  The written owner registers (2.4 op 4122 of 1865, op 5049 of 1847–1880; 2.2 sp 1361) have **no scans** yet.
+- Also in the archive (no scans): testament of Aniela Kargul, Wokowice 1942 (29/4277/0/8/626).
+- Drafts for Hornyak.Balazs and for the parish/diocesan archive: `onderzoek/brieven.md` (not sent).

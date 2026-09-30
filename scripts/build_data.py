@@ -32,7 +32,9 @@ person("casimir_kargol_sr", "Casimir Kargol", "m", "ca. 1751", "22-2-1815", "Wok
             "oud. Kinderen met Agnieszka (ook Agata genoemd) Grochola, allemaal op nr. 57: Józef (gedoopt 19-3-1776), "
             "Szymon (17-10-1779), Stefan (23-12-1781), Kazimierz (4-3-1784), Bartłomiej (21-8-1787), Marianna "
             "(2-7-1789), Stanisław (10-2-1792), Anna (13-5-1794) en Agnieszka (1797). Zijn doop (rond 1751) en zijn "
-            "huwelijk (rond 1775) staan niet in de indexen: de doopboeken van Szczepanów beginnen pas in 1772.",
+            "huwelijk (rond 1775) staan niet in de indexen: de doopboeken van Szczepanów beginnen pas in 1772. Op het buurhuis "
+            "nr. 58 woonde Franciscus Kargol (ca. 1741–1789), mogelijk een broer; in de jaren 1784–1815 woonde geen andere "
+            "volwassen Kargol op nr. 57, dus Casimirs ouders waren toen waarschijnlijk al overleden.",
        recs=[("Begrafenis 1815", "6V34-W5QS"), ("Genoemd bij begrafenis zoon Simon 1834", "6V34-8W94"),
              ("Doop zoon Josephus 1776", "6V39-9495"),
              ("Geneteka: kinderen van Kazimierz Kargol", GT + "bdm=B&rid=B&search_name=Kazimierz&from_date=1770&to_date=1800")])
