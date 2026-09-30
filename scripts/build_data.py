@@ -25,20 +25,69 @@ def person(pid, name, sex, born=None, died=None, place=None, note="", fs=None, r
 
 # --- Kargol (Szczepanów, Galicië -> Boedapest) ---
 L = "kargol"
-person("ferenc_kargol", "Ferenc Kargol", "m", place="Szczepanów", fs="GQZ4-NK8", line=L,
-       note="Woonde in Szczepanów, een dorp bij Brzesko in Galicië (toen Oostenrijk, nu Polen).")
-person("maria_latocha", "Mária Latocha", "f", "1833", "25-4-1872", "Szczepanów", fs="GQZ4-JWC", line=L,
-       note="Overleed op 25 april 1872 in Szczepanów en werd daar op 27 april begraven. Ze werd maar 39.")
-person("janos_kargol", "János Lőrinc Kargol", "m", "6-6-1867", "25-8-1936", "Szczepanów", fs="LY13-M7K", line=L,
-       note="Geboren in Szczepanów (Galicië). Trok naar Boedapest en werkte daar als hulpje van metselaars "
+# Poland: all in the parish of Szczepanów (Tarnów diocese); house no. 57 lies in the village of Wokowice.
+person("casimir_kargol_sr", "Casimir Kargol", "m", None, None, "Wokowice", line=L,
+       note="Oudste bekende Kargol van deze lijn, rond 1750–1780 in Wokowice. Vader van Simon.",
+       recs=[("Genoemd bij begrafenis zoon Simon 1834", "6V34-8W94")])
+person("agnes_grochola", "Agnes Grochola", "f", None, None, "Wokowice", line=L)
+person("simon_kargol", "Simon Kargol", "m", "ca. 1777", "9-10-1834", "Wokowice", fs="PZ9V-ZK5", line=L,
+       note="Boer op huis nr. 57 in Wokowice. Trouwde op 16 februari 1806 in Szczepanów met Catharina Lis (18), "
+            "dochter van Stanislaus Lis. Overleed op 57-jarige leeftijd.",
+       recs=[("Huwelijk 1806", "6VSB-KR2T"), ("Begrafenis 1834", "6V34-8W94")])
+person("catharina_lis", "Catharina Lis", "f", "ca. 1788", None, "Szczepanów", fs="PZ9V-CNY", line=L,
+       note="Waarschijnlijk dezelfde als de Catharina die op 17 maart 1788 in Szczepanów werd gedoopt als dochter van "
+            "Stanislaus Lis en Theresia.", recs=[("Doop 1788 (waarschijnlijk)", "6VS1-7NDS")])
+person("stanislaus_lis", "Stanislaus Lis", "m", None, None, "Szczepanów", line=L)
+person("theresia_lis", "Theresia", "f", None, None, "Szczepanów", line=L)
+person("casimir_kargol", "Casimir Kargol", "m", None, None, "Wokowice", line=L,
+       note="Vader van Salomea. Een andere Kargol dan de Casimir hierboven, uit dezelfde grote familie in Wokowice.")
+person("agnes_ksiazek", "Agnes Książek", "f", None, None, None, line=L)
+person("adalbert_kargol", "Wojciech (Adalbertus) Kargol", "m", "ca. 1817", "5-11-1845", "Wokowice", line=L,
+       note="Zoon van Simon Kargol en Catharina Lis. Trouwde al op zijn 19e, op 26 januari 1836, met Salomea Kargol "
+            "(21), ook een Kargol uit Wokowice. Overleed op 30-jarige leeftijd op huis nr. 57. Kinderen: Franciscus "
+            "(1836), Martha (1838–1849), Matheus (1842–1849) en Veronica (1843, trouwde in 1868 met Adalbertus Książek). "
+            "Martha en Matheus stierven in september 1849 kort na elkaar, in het jaar van de grote cholera-epidemie.",
+       recs=[("Huwelijk 1836", "6VSB-K45C"), ("Begrafenis 1845", "6VST-8YG1")])
+person("salomea_kargol", "Salomea Kargol", "f", "24-10-1814", "1-12-1855", "Wokowice", line=L,
+       note="Dochter van Casimir Kargol en Agnes Książek. Weduwe in 1845; hertrouwde waarschijnlijk in 1850 met Simon "
+            "Bach en overleed in 1855 in Wokowice.",
+       recs=[("Doop 1814", "6V3G-W9RW"), ("Begrafenis 1855 (waarschijnlijk)", "6VST-VD3C")])
+person("ferenc_kargol", "Ferenc (Franciscus) Kargol", "m", "9-10-1836", "26-6-1903", "Wokowice", fs="GQZ4-NK8", line=L,
+       note="Geboren op huis nr. 57 in Wokowice, parochie Szczepanów. Zijn vader stierf toen hij negen was. Hij trouwde "
+            "drie keer: in 1856, op zijn 19e, met Marianna Gładysz (zij stierf in april 1860, twee kinderen stierven als "
+            "baby); op 2 juli 1860 met Marianna Latocha; en op 2 juli 1872, tien weken na haar dood, met Salomea Żurek "
+            "(1849–1923). Met Salomea kreeg hij nog minstens negen kinderen, van wie de meesten jong stierven. "
+            "Overleed op 66-jarige leeftijd op huis nr. 57.",
+       recs=[("Doop 1836", "6V3V-J4C6"), ("Huwelijk 1856", "6V3M-6VNZ"), ("Huwelijk 1860", "6V3M-8WQS"),
+             ("Huwelijk 1872", "6V3M-HT3X"), ("Begrafenis 1903", "6V3S-SM59")])
+person("maria_latocha", "Marianna (Mária) Latocha", "f", "ca. 1833", "25-4-1872", "Szczepanów", fs="GQZ4-JWC", line=L,
+       note="Dochter van Michael Latocha en Marianna Budzioch. Trouwde op 2 juli 1860 met Ferenc Kargol, toen ze 27 was. "
+            "Overleed op 25 april 1872 en werd twee dagen later in Szczepanów begraven. Haar zoon János was toen vier.",
+       recs=[("Huwelijk 1860", "6V3M-8WQS")])
+person("michael_latocha", "Michael Latocha", "m", "ca. 1806", "10-3-1870", "Szczepanów", line=L,
+       note="Overleed in 1870, twee jaar vóór zijn dochter. Meerdere van zijn kinderen stierven jong.")
+person("marianna_budzioch", "Marianna Budzioch", "f", None, None, "Szczepanów", line=L)
+person("janos_kargol", "János Lőrinc Kargol", "m", "6-6-1867", "25-8-1936", "Wokowice", fs="LY13-M7K", line=L,
+       note="Gedoopt als Joannes Laurentius op 7 juni 1867 in Szczepanów, geboren op huis nr. 57 in Wokowice. Zijn "
+            "moeder stierf toen hij vier was. Trok naar Boedapest en werkte daar als hulpje van metselaars "
             "(kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks "
-            "onderdaan uit Galicië, met woonrecht in Szczepanów'. Woonde in Boedapest VIII (Köztemető út 87, 1896), "
-            "VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer 1908 in "
-            "Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.")
-person("ferenc_kargol_1869", "Ferenc Kargol", "m", "1869", None, "Szczepanów", fs="G569-BKC", line=L)
-person("ferenc_kargol_1870", "Ferenc Kargol", "m", "1870", "1870", "Szczepanów", fs="G56S-3MB", line=L)
-person("henrik_kargol", "Henrik Kargol", "m", "1871", "1871", "Szczepanów", fs="G56S-WZ8", line=L)
-person("jozsef_kargol", "József Kargol", "m", None, None, "Szczepanów", fs="G56S-75Q", line=L)
+            "onderdaan uit Galicië, met woonrecht in Szczepanów (Wokowice)'. Woonde in Boedapest VIII (Köztemető út 87, "
+            "1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer "
+            "1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.",
+       recs=[("Doop 1867", "6VSB-7ZQM")])
+person("marianna_kargol_1865", "Marianna Kargol", "f", "22-4-1865", None, "Wokowice", line=L,
+       note="Oudere zus van János. Mogelijk dezelfde als de Maria, dochter van Franciscus Kargol en Maria Latocha, die "
+            "op 16 januari 1898 in Szczepanów trouwde met Josephus Kargol.",
+       recs=[("Doop 1865", "6V3N-K1YK"), ("Huwelijk 1898 (mogelijk)", "6V3M-9R35")])
+person("ferenc_kargol_1869", "Franciscus Kargol", "m", "22-8-1869", "29-1-1870", "Wokowice", fs="G569-BKC", line=L,
+       note="Stierf vijf maanden oud.", recs=[("Doop 1869", "6V3K-X8HL"), ("Begrafenis 1870", "6V3K-8KS1")])
+person("henrik_kargol", "Henricus Joannes Kargol", "m", "12-1-1871", "22-5-1871", "Wokowice", fs="G56S-WZ8", line=L,
+       note="Stierf vier maanden oud.", recs=[("Doop 1871", "6VSB-LCBC"), ("Begrafenis 1871", "6VSB-DR9M")])
+person("salomea_zurek", "Salomea Żurek", "f", "ca. 1849", "1-1-1923", "Wokowice", line=L,
+       note="Derde vrouw van Ferenc Kargol (1872), stiefmoeder van János. Kinderen o.a. Joannes (1873–1873), Salomea (1874), "
+            "Franciscus Joannes (1875), Josephus Alexander (1877), Salomea (1882–1882), Franciscus (1884–1887) en "
+            "Adalbertus (1886–1886). Overleed op huis nr. 57.",
+       recs=[("Huwelijk 1872", "6V3M-HT3F"), ("Begrafenis 1923", "6V3S-SZL3")])
 
 person("zsofia_kargol", "Zsófia Kargol", "f", "10-1-1896", "1993", "Boedapest", fs="G6LZ-1J3", line=L,
        note="Trouwde op 26 april 1915 in Pesterzsébet met Lajos Ambrus (geb. 1885). Kinderen: László (1912), "
@@ -176,9 +225,20 @@ C = {
     "c_ban_hagymasi": dict(h="sandor_ban", w="julianna_hagymasi", marr=None, children=["istvan_ban"], parents=[None, None]),
     "c_zele_kovacs": dict(h="gaspar_zele", w="veronika_kovacs", marr=None, children=["borbala_zele"], parents=[None, None]),
     "c_borbely_berecz": dict(h="janos_borbely", w="zsuzsanna_berecz", marr=None, children=["sandor_borbely"], parents=[None, None]),
-    "c_kargol_latocha": dict(h="ferenc_kargol", w="maria_latocha", marr=None,
-                             children=["janos_kargol", "ferenc_kargol_1869", "ferenc_kargol_1870", "henrik_kargol", "jozsef_kargol"],
-                             parents=[None, None]),
+    "c_kargol_latocha": dict(h="ferenc_kargol", w="maria_latocha", marr="2-7-1860, Szczepanów",
+                             children=["marianna_kargol_1865", "janos_kargol", "ferenc_kargol_1869", "henrik_kargol"],
+                             parents=["c_adalbert_salomea", "c_latocha_budzioch"]),
+    "c_adalbert_salomea": dict(h="adalbert_kargol", w="salomea_kargol", marr="26-1-1836, Szczepanów",
+                               children=["ferenc_kargol"], parents=["c_simon_lis", "c_casimir_ksiazek"]),
+    "c_latocha_budzioch": dict(h="michael_latocha", w="marianna_budzioch", marr=None, children=["maria_latocha"],
+                               parents=[None, None]),
+    "c_simon_lis": dict(h="simon_kargol", w="catharina_lis", marr="16-2-1806, Szczepanów", children=["adalbert_kargol"],
+                        parents=["c_casimir_grochola", "c_lis"]),
+    "c_casimir_ksiazek": dict(h="casimir_kargol", w="agnes_ksiazek", marr=None, children=["salomea_kargol"],
+                              parents=[None, None]),
+    "c_casimir_grochola": dict(h="casimir_kargol_sr", w="agnes_grochola", marr=None, children=["simon_kargol"],
+                               parents=[None, None]),
+    "c_lis": dict(h="stanislaus_lis", w="theresia_lis", marr=None, children=["catharina_lis"], parents=[None, None]),
     "c_savrnoch_chovan": dict(h="mihaly_savrnoch", w="maria_chovan", marr=None,
                               children=["zsuzsanna_savrnoch", "anna_savrnoch", "jozsef_savrnoch", "maria_savrnoch", "janos_savrnoch"],
                               parents=[None, "c_chovan_siroky"]),
@@ -187,7 +247,7 @@ C = {
 # Spouses of children (shown in the family panel)
 SPOUSE = {"zsofia_kargol": "lajos_ambrus", "szaniszlo_kargol": "karolina_horvath", "maria_kargol": "ferenc_schneider",
           "miklos_kargul": "erzsebet_toth", "andras_kagol": "maria_fridlik", "jozsef_ban": "margit_borbely",
-          "zsuzsanna_savrnoch": "janos_kargol", "laszlo_ban": "dochter_kagol"}
+          "zsuzsanna_savrnoch": "janos_kargol", "ferenc_kargol": "maria_latocha", "laszlo_ban": "dochter_kagol"}
 
 for cid, c in C.items():
     c["id"] = cid

@@ -56,17 +56,23 @@
       [[h, 0], [w, BOX_H / 2]].forEach(([p, y]) => {
         n.append("rect").attr("class", "bar").attr("x", 0).attr("y", y + 4).attr("width", 5).attr("height", BOX_H / 2 - 8)
           .attr("rx", 2).style("fill", LINE_COLOR(p && p.line));
-        n.append("text").attr("x", 14).attr("y", y + 20).text(p ? p.name : "onbekend");
-        n.append("text").attr("class", "years").attr("x", BOX_W - 10).attr("y", y + 20).attr("text-anchor", "end").text(years(p));
+        const yr = n.append("text").attr("class", "years").attr("x", BOX_W - 10).attr("y", y + 20).attr("text-anchor", "end").text(years(p));
+        const nm = n.append("text").attr("x", 14).attr("y", y + 20).text(p ? p.name : "onbekend");
+        nm.append("title").text(p ? p.name : "");
+        // Shorten long names so they never run into the years
+        const room = BOX_W - 24 - yr.node().getComputedTextLength() - 8;
+        let full = p ? p.name : "onbekend", cut = full.length;
+        while (nm.node().getComputedTextLength() > room && cut > 4) nm.text(full.slice(0, --cut) + "…");
       });
     });
 
     // Fit to view
     const b = g.node().getBBox(), W = svg.node().clientWidth, H = svg.node().clientHeight;
     let s = Math.min(1, 0.92 * Math.min(W / b.width, H / b.height));
-    if (W < 800) {
-      // Small screens: keep the text readable and start at the bottom couple
-      s = Math.max(s, 0.6);
+    // Keep the text readable: never start smaller than 0.6 (phone) / 0.85 (desktop); start at the bottom couple
+    const minS = W < 800 ? 0.6 : 0.85;
+    if (s < minS) {
+      s = minS;
       svg.call(zoom.transform, d3.zoomIdentity.translate(W / 2, H - 20 - s * BOX_H).scale(s));
     } else {
       svg.call(zoom.transform, d3.zoomIdentity.translate(W / 2 - s * (b.x + b.width / 2), H / 2 - s * (b.y + b.height / 2)).scale(s));

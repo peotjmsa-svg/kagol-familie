@@ -19,7 +19,7 @@
   "use strict";
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const LINES = {
-    kargol: ["Kagol / Kargol", "Szczepanów"],
+    kargol: ["Kagol / Kargol", "Wokowice"],
     savrnoch: ["Savrnoch", "Lúčky"],
     fridlik: ["Fridlik", "Pilisszántó"],
     ban: ["Bán", "Ibrány"],
@@ -44,6 +44,8 @@
         (byPlace[p.place] = byPlace[p.place] || []).push(p);
       });
       const extra = {
+        "Wokowice": "Huis nr. 57: hier woonden de Kargols minstens van 1806 tot 1923, vier generaties lang. János Kargol werd hier in 1867 geboren.",
+        "Szczepanów": "Parochiekerk van de Kargols uit Wokowice: hier werden ze gedoopt, getrouwd en begraven.",
         "Tinnye": "Familie Kunyik woonde hier al vóór 1850 (begraafakten 1847–1888); Terézia Fridlik trouwde hier in 1850. Het dorp dat in de familie werd onthouden.",
         "Újpest": "János Kargol en gezin woonden in 1901 op Váci út 53. Anna Kargol overleed hier in 1901.",
         "Pesterzsébet": "Zsófia Kargol trouwde hier in 1915. Mária Chovan overleed hier in 1924.",

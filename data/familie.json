@@ -1,36 +1,238 @@
 {
  "people": {
-  "ferenc_kargol": {
-   "id": "ferenc_kargol",
-   "name": "Ferenc Kargol",
+  "casimir_kargol_sr": {
+   "id": "casimir_kargol_sr",
+   "name": "Casimir Kargol",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Wokowice",
+   "note": "Oudste bekende Kargol van deze lijn, rond 1750–1780 in Wokowice. Vader van Simon.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Genoemd bij begrafenis zoon Simon 1834",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V34-8W94"
+    }
+   ]
+  },
+  "agnes_grochola": {
+   "id": "agnes_grochola",
+   "name": "Agnes Grochola",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": "Wokowice",
+   "note": "",
+   "line": "kargol",
+   "sources": []
+  },
+  "simon_kargol": {
+   "id": "simon_kargol",
+   "name": "Simon Kargol",
+   "sex": "m",
+   "born": "ca. 1777",
+   "died": "9-10-1834",
+   "place": "Wokowice",
+   "note": "Boer op huis nr. 57 in Wokowice. Trouwde op 16 februari 1806 in Szczepanów met Catharina Lis (18), dochter van Stanislaus Lis. Overleed op 57-jarige leeftijd.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom PZ9V-ZK5",
+     "url": "https://www.familysearch.org/tree/person/details/PZ9V-ZK5"
+    },
+    {
+     "label": "Huwelijk 1806",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-KR2T"
+    },
+    {
+     "label": "Begrafenis 1834",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V34-8W94"
+    }
+   ]
+  },
+  "catharina_lis": {
+   "id": "catharina_lis",
+   "name": "Catharina Lis",
+   "sex": "f",
+   "born": "ca. 1788",
+   "died": null,
+   "place": "Szczepanów",
+   "note": "Waarschijnlijk dezelfde als de Catharina die op 17 maart 1788 in Szczepanów werd gedoopt als dochter van Stanislaus Lis en Theresia.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "FamilySearch stamboom PZ9V-CNY",
+     "url": "https://www.familysearch.org/tree/person/details/PZ9V-CNY"
+    },
+    {
+     "label": "Doop 1788 (waarschijnlijk)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VS1-7NDS"
+    }
+   ]
+  },
+  "stanislaus_lis": {
+   "id": "stanislaus_lis",
+   "name": "Stanislaus Lis",
    "sex": "m",
    "born": null,
    "died": null,
    "place": "Szczepanów",
-   "note": "Woonde in Szczepanów, een dorp bij Brzesko in Galicië (toen Oostenrijk, nu Polen).",
+   "note": "",
+   "line": "kargol",
+   "sources": []
+  },
+  "theresia_lis": {
+   "id": "theresia_lis",
+   "name": "Theresia",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": "Szczepanów",
+   "note": "",
+   "line": "kargol",
+   "sources": []
+  },
+  "casimir_kargol": {
+   "id": "casimir_kargol",
+   "name": "Casimir Kargol",
+   "sex": "m",
+   "born": null,
+   "died": null,
+   "place": "Wokowice",
+   "note": "Vader van Salomea. Een andere Kargol dan de Casimir hierboven, uit dezelfde grote familie in Wokowice.",
+   "line": "kargol",
+   "sources": []
+  },
+  "agnes_ksiazek": {
+   "id": "agnes_ksiazek",
+   "name": "Agnes Książek",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": null,
+   "note": "",
+   "line": "kargol",
+   "sources": []
+  },
+  "adalbert_kargol": {
+   "id": "adalbert_kargol",
+   "name": "Wojciech (Adalbertus) Kargol",
+   "sex": "m",
+   "born": "ca. 1817",
+   "died": "5-11-1845",
+   "place": "Wokowice",
+   "note": "Zoon van Simon Kargol en Catharina Lis. Trouwde al op zijn 19e, op 26 januari 1836, met Salomea Kargol (21), ook een Kargol uit Wokowice. Overleed op 30-jarige leeftijd op huis nr. 57. Kinderen: Franciscus (1836), Martha (1838–1849), Matheus (1842–1849) en Veronica (1843, trouwde in 1868 met Adalbertus Książek). Martha en Matheus stierven in september 1849 kort na elkaar, in het jaar van de grote cholera-epidemie.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Huwelijk 1836",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-K45C"
+    },
+    {
+     "label": "Begrafenis 1845",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VST-8YG1"
+    }
+   ]
+  },
+  "salomea_kargol": {
+   "id": "salomea_kargol",
+   "name": "Salomea Kargol",
+   "sex": "f",
+   "born": "24-10-1814",
+   "died": "1-12-1855",
+   "place": "Wokowice",
+   "note": "Dochter van Casimir Kargol en Agnes Książek. Weduwe in 1845; hertrouwde waarschijnlijk in 1850 met Simon Bach en overleed in 1855 in Wokowice.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Doop 1814",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3G-W9RW"
+    },
+    {
+     "label": "Begrafenis 1855 (waarschijnlijk)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VST-VD3C"
+    }
+   ]
+  },
+  "ferenc_kargol": {
+   "id": "ferenc_kargol",
+   "name": "Ferenc (Franciscus) Kargol",
+   "sex": "m",
+   "born": "9-10-1836",
+   "died": "26-6-1903",
+   "place": "Wokowice",
+   "note": "Geboren op huis nr. 57 in Wokowice, parochie Szczepanów. Zijn vader stierf toen hij negen was. Hij trouwde drie keer: in 1856, op zijn 19e, met Marianna Gładysz (zij stierf in april 1860, twee kinderen stierven als baby); op 2 juli 1860 met Marianna Latocha; en op 2 juli 1872, tien weken na haar dood, met Salomea Żurek (1849–1923). Met Salomea kreeg hij nog minstens negen kinderen, van wie de meesten jong stierven. Overleed op 66-jarige leeftijd op huis nr. 57.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom GQZ4-NK8",
      "url": "https://www.familysearch.org/tree/person/details/GQZ4-NK8"
+    },
+    {
+     "label": "Doop 1836",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3V-J4C6"
+    },
+    {
+     "label": "Huwelijk 1856",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-6VNZ"
+    },
+    {
+     "label": "Huwelijk 1860",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-8WQS"
+    },
+    {
+     "label": "Huwelijk 1872",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-HT3X"
+    },
+    {
+     "label": "Begrafenis 1903",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3S-SM59"
     }
-   ]
+   ],
+   "spouse": "maria_latocha"
   },
   "maria_latocha": {
    "id": "maria_latocha",
-   "name": "Mária Latocha",
+   "name": "Marianna (Mária) Latocha",
    "sex": "f",
-   "born": "1833",
+   "born": "ca. 1833",
    "died": "25-4-1872",
    "place": "Szczepanów",
-   "note": "Overleed op 25 april 1872 in Szczepanów en werd daar op 27 april begraven. Ze werd maar 39.",
+   "note": "Dochter van Michael Latocha en Marianna Budzioch. Trouwde op 2 juli 1860 met Ferenc Kargol, toen ze 27 was. Overleed op 25 april 1872 en werd twee dagen later in Szczepanów begraven. Haar zoon János was toen vier.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom GQZ4-JWC",
      "url": "https://www.familysearch.org/tree/person/details/GQZ4-JWC"
+    },
+    {
+     "label": "Huwelijk 1860",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-8WQS"
     }
    ]
+  },
+  "michael_latocha": {
+   "id": "michael_latocha",
+   "name": "Michael Latocha",
+   "sex": "m",
+   "born": "ca. 1806",
+   "died": "10-3-1870",
+   "place": "Szczepanów",
+   "note": "Overleed in 1870, twee jaar vóór zijn dochter. Meerdere van zijn kinderen stierven jong.",
+   "line": "kargol",
+   "sources": []
+  },
+  "marianna_budzioch": {
+   "id": "marianna_budzioch",
+   "name": "Marianna Budzioch",
+   "sex": "f",
+   "born": null,
+   "died": null,
+   "place": "Szczepanów",
+   "note": "",
+   "line": "kargol",
+   "sources": []
   },
   "janos_kargol": {
    "id": "janos_kargol",
@@ -38,77 +240,105 @@
    "sex": "m",
    "born": "6-6-1867",
    "died": "25-8-1936",
-   "place": "Szczepanów",
-   "note": "Geboren in Szczepanów (Galicië). Trok naar Boedapest en werkte daar als hulpje van metselaars (kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks onderdaan uit Galicië, met woonrecht in Szczepanów'. Woonde in Boedapest VIII (Köztemető út 87, 1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer 1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.",
+   "place": "Wokowice",
+   "note": "Gedoopt als Joannes Laurentius op 7 juni 1867 in Szczepanów, geboren op huis nr. 57 in Wokowice. Zijn moeder stierf toen hij vier was. Trok naar Boedapest en werkte daar als hulpje van metselaars (kőműves napszámos). Bleef Oostenrijks staatsburger: in 1899 staat hij ingeschreven als 'Oostenrijks onderdaan uit Galicië, met woonrecht in Szczepanów (Wokowice)'. Woonde in Boedapest VIII (Köztemető út 87, 1896), VII (Rózsa utca 15, 1897; Peterdy utca 11/A, 1899), in Újpest (Váci út 53, 1901) en vanaf ongeveer 1908 in Kispest (Nagysándor József utca 157; in 1936 Kossuth Lajos utca 214). Overleed in Boedapest.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom LY13-M7K",
      "url": "https://www.familysearch.org/tree/person/details/LY13-M7K"
+    },
+    {
+     "label": "Doop 1867",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-7ZQM"
+    }
+   ]
+  },
+  "marianna_kargol_1865": {
+   "id": "marianna_kargol_1865",
+   "name": "Marianna Kargol",
+   "sex": "f",
+   "born": "22-4-1865",
+   "died": null,
+   "place": "Wokowice",
+   "note": "Oudere zus van János. Mogelijk dezelfde als de Maria, dochter van Franciscus Kargol en Maria Latocha, die op 16 januari 1898 in Szczepanów trouwde met Josephus Kargol.",
+   "line": "kargol",
+   "sources": [
+    {
+     "label": "Doop 1865",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3N-K1YK"
+    },
+    {
+     "label": "Huwelijk 1898 (mogelijk)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-9R35"
     }
    ]
   },
   "ferenc_kargol_1869": {
    "id": "ferenc_kargol_1869",
-   "name": "Ferenc Kargol",
+   "name": "Franciscus Kargol",
    "sex": "m",
-   "born": "1869",
-   "died": null,
-   "place": "Szczepanów",
-   "note": "",
+   "born": "22-8-1869",
+   "died": "29-1-1870",
+   "place": "Wokowice",
+   "note": "Stierf vijf maanden oud.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom G569-BKC",
      "url": "https://www.familysearch.org/tree/person/details/G569-BKC"
-    }
-   ]
-  },
-  "ferenc_kargol_1870": {
-   "id": "ferenc_kargol_1870",
-   "name": "Ferenc Kargol",
-   "sex": "m",
-   "born": "1870",
-   "died": "1870",
-   "place": "Szczepanów",
-   "note": "",
-   "line": "kargol",
-   "sources": [
+    },
     {
-     "label": "FamilySearch stamboom G56S-3MB",
-     "url": "https://www.familysearch.org/tree/person/details/G56S-3MB"
+     "label": "Doop 1869",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3K-X8HL"
+    },
+    {
+     "label": "Begrafenis 1870",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3K-8KS1"
     }
    ]
   },
   "henrik_kargol": {
    "id": "henrik_kargol",
-   "name": "Henrik Kargol",
+   "name": "Henricus Joannes Kargol",
    "sex": "m",
-   "born": "1871",
-   "died": "1871",
-   "place": "Szczepanów",
-   "note": "",
+   "born": "12-1-1871",
+   "died": "22-5-1871",
+   "place": "Wokowice",
+   "note": "Stierf vier maanden oud.",
    "line": "kargol",
    "sources": [
     {
      "label": "FamilySearch stamboom G56S-WZ8",
      "url": "https://www.familysearch.org/tree/person/details/G56S-WZ8"
+    },
+    {
+     "label": "Doop 1871",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-LCBC"
+    },
+    {
+     "label": "Begrafenis 1871",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VSB-DR9M"
     }
    ]
   },
-  "jozsef_kargol": {
-   "id": "jozsef_kargol",
-   "name": "József Kargol",
-   "sex": "m",
-   "born": null,
-   "died": null,
-   "place": "Szczepanów",
-   "note": "",
+  "salomea_zurek": {
+   "id": "salomea_zurek",
+   "name": "Salomea Żurek",
+   "sex": "f",
+   "born": "ca. 1849",
+   "died": "1-1-1923",
+   "place": "Wokowice",
+   "note": "Derde vrouw van Ferenc Kargol (1872), stiefmoeder van János. Kinderen o.a. Joannes (1873–1873), Salomea (1874), Franciscus Joannes (1875), Josephus Alexander (1877), Salomea (1882–1882), Franciscus (1884–1887) en Adalbertus (1886–1886). Overleed op huis nr. 57.",
    "line": "kargol",
    "sources": [
     {
-     "label": "FamilySearch stamboom G56S-75Q",
-     "url": "https://www.familysearch.org/tree/person/details/G56S-75Q"
+     "label": "Huwelijk 1872",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3M-HT3F"
+    },
+    {
+     "label": "Begrafenis 1923",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6V3S-SZL3"
     }
    ]
   },
@@ -1052,19 +1282,96 @@
   "c_kargol_latocha": {
    "h": "ferenc_kargol",
    "w": "maria_latocha",
-   "marr": null,
+   "marr": "2-7-1860, Szczepanów",
    "children": [
+    "marianna_kargol_1865",
     "janos_kargol",
     "ferenc_kargol_1869",
-    "ferenc_kargol_1870",
-    "henrik_kargol",
-    "jozsef_kargol"
+    "henrik_kargol"
+   ],
+   "parents": [
+    "c_adalbert_salomea",
+    "c_latocha_budzioch"
+   ],
+   "id": "c_kargol_latocha"
+  },
+  "c_adalbert_salomea": {
+   "h": "adalbert_kargol",
+   "w": "salomea_kargol",
+   "marr": "26-1-1836, Szczepanów",
+   "children": [
+    "ferenc_kargol"
+   ],
+   "parents": [
+    "c_simon_lis",
+    "c_casimir_ksiazek"
+   ],
+   "id": "c_adalbert_salomea"
+  },
+  "c_latocha_budzioch": {
+   "h": "michael_latocha",
+   "w": "marianna_budzioch",
+   "marr": null,
+   "children": [
+    "maria_latocha"
    ],
    "parents": [
     null,
     null
    ],
-   "id": "c_kargol_latocha"
+   "id": "c_latocha_budzioch"
+  },
+  "c_simon_lis": {
+   "h": "simon_kargol",
+   "w": "catharina_lis",
+   "marr": "16-2-1806, Szczepanów",
+   "children": [
+    "adalbert_kargol"
+   ],
+   "parents": [
+    "c_casimir_grochola",
+    "c_lis"
+   ],
+   "id": "c_simon_lis"
+  },
+  "c_casimir_ksiazek": {
+   "h": "casimir_kargol",
+   "w": "agnes_ksiazek",
+   "marr": null,
+   "children": [
+    "salomea_kargol"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_casimir_ksiazek"
+  },
+  "c_casimir_grochola": {
+   "h": "casimir_kargol_sr",
+   "w": "agnes_grochola",
+   "marr": null,
+   "children": [
+    "simon_kargol"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_casimir_grochola"
+  },
+  "c_lis": {
+   "h": "stanislaus_lis",
+   "w": "theresia_lis",
+   "marr": null,
+   "children": [
+    "catharina_lis"
+   ],
+   "parents": [
+    null,
+    null
+   ],
+   "id": "c_lis"
   },
   "c_savrnoch_chovan": {
    "h": "mihaly_savrnoch",

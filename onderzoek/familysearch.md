@@ -71,3 +71,40 @@ Records use Kargol, Kargul, Kagol, Kágol side by side (even for the same person
 ## Searched without result
 - László Bán b. 1933–1935: not indexed (civil records after about 1930 are rarely indexed for births).
 - Children of András Kagol and Mária Fridlik: none indexed (search father Kagol + mother Fridlik = 0).
+
+## Polish Kargol line (research round 2, 2026-09-30) – "Poland, Church Books, 1568-1990", parish Szczepanów
+All at **house no. 57, village Wokowice** (a separate village next to Szczepanów, in the Szczepanów parish; indexed
+note "Wokowice"). The Hungarian papers' "Wokowice illetőség" = this village. Kargol is a very common name there
+(tens of thousands of hits); always match on house number 57, spouse names and ages.
+
+- **Casimir Kargol × Agnes Grochola** – parents of Simon (burial Simon 1834, 6V34-8W94). Their children in the FS tree (PZ9V-299 / PZ9J-VCN): Josephus 1776, Simon 1778, Bartholomaeus 1787.
+- **Simon Kargol** (FS tree PZ9V-ZK5), b. ca. 1777, house 57, m. 16 Feb 1806 (6VSB-KR2T) **Catharina** (18), daughter of Stanislaus Lis;
+  d. 9 Oct 1834 age 57 (6V34-8W94). Catharina Lis bapt. 17 Mar 1788, parents Stanislaus Lis & Theresia (6VS1-7NDS) – probable.
+  Other children of Simon × Lis: Victoria (b. 1838?? index says m. 1855, parents Simon Kargol & Marianna Lis – maybe a different Simon), Anna (m. 1863) – NOT checked.
+  A Simon Kargol b. 1781, house 57, "Leki", m. 8 Jun 1824 Anna Stepak (6VST-P42X) – different Simon or remarriage? Not resolved.
+- **Wojciech (Adalbertus) Kargol**, b. ca. 1817, son of Simon Kargol & Catharina Lis; m. 26 Jan 1836 (6VSB-K45C, age 19)
+  **Salomea Kargol** (21), daughter of Casimir Kargol & Agnes Książek (bapt. 24 Oct 1814, 6V3G-W9RW). Wojciech d. 5 Nov 1845, house 57, age 30 (6VST-8YG1).
+  Children: Franciscus bapt. 9 Oct 1836 (6V3V-J4C6); Martha 1838–6 Sep 1849; Matheus 1842–16 Sep 1849 (cholera year); Veronica b. 1843, m. 12 Nov 1868 Adalbertus Książek (6V3M-DJP3).
+  Salomea probably remarried 11 Jul 1850 Simon Bach (6V3P-B43T) and d. 1 Dec 1855 Wokowice age 40 (6VST-VD3C) – probable, not proven.
+  The Casimir who married Agnes (26 Feb 1797, b. 1773, son of Antonius; 6V3G-ZT5D) is probably Salomea's father – not checked.
+- **Franciscus (Ferenc) Kargol**, b. 9 Oct 1836, house 57, d. 26 Jun 1903 age 66, house 57 (6V3S-SM59; index lists spouse "Maria Gladysz").
+  1) m. 30 Jan 1856 (6V3M-6VNZ, age 19, parents Adalbert & Salomea) Marianna Gładysz (19), dau. of Joannes Gładysz & Marianna Kadziołka;
+     children Salomea †13 Nov 1858, Gertrudis †17 Feb 1860; Marianna Gładysz d. 22 Apr 1860 (6V3C-K7R5).
+  2) m. 2 Jul 1860 (6V3M-8WQS, 6V3P-2LN4; age 24, house 57, Wokowice) **Marianna Latocha** (27), dau. of Michael Latocha & Marianna Budzioch.
+     Children (all house 57): Marianna b. 22 Apr 1865 (6V3N-K1YK); **Joannes Laurentius b. 6 Jun 1867, bapt. 7 Jun 1867** (6V3N-5RD9, 6VSB-7ZQM) = János Lőrinc;
+     Franciscus b. 22 Aug 1869 (6V3K-X8HL), d. 29 Jan 1870 (6V3K-8KS1) – the FS tree has him twice (G569-BKC and G56S-3MB);
+     Henricus Joannes b. 12 Jan 1871 (6VSB-LCBC), d. 22 May 1871 (6VSB-DR9M). Children 1861–1864 not found in the index.
+     Marianna Latocha d. 25 Apr 1872, buried 27 Apr (burial index "Marianna Latocha, spouse Francisci Kargol", b. 1833).
+     Possible: "Maria, dau. of Francisci Kargol & Mariae Latocha" m. 16 Jan 1898 Josephus Kargol (6V3M-9R35) = Marianna 1865?
+  3) m. 2 Jul 1872 (6V3M-HT3X, age 36) Salomea Żurek (23; index gives parents Joannes & Catharina Puello), d. 1 Jan 1923 age 73, house 57 (6V3S-SZL3).
+     Children: Joannes 4 Apr 1873–5 Apr 1873; Salomea b. 7 Mar 1874; Franciscus Joannes b. 20 Jul 1875; Franciscus 1876–1881;
+     Josephus Alexander b. 29 Mar 1877; unnamed †22 May 1879; Salomea 1882–1882; Franciscus 1884–1887; Adalbertus 1886–1886.
+- **Latocha**: Michael Latocha, b. ca. 1806, d. 10 Mar 1870 (spouse Marianna Budzioch). Their children buried: Andreas 1837–1841,
+  Martina 1844–1844, Victoria 1846–1865, Michael 1844–1866, Hyacinthus 1849–1853.
+
+## Other
+- János Kargol's death 1936 (Budapest) is a source on his FS tree profile but was not found by searching.
+- Children of András Kagol × Mária Fridlik: not indexed (searched father Kagol/Kágol/Kargol/Kargul 1920–1980).
+- Hungaricana: only unrelated hits (k.u.k. army lists Kargol Johann/Franz from Galicia 1913–1918; a János Kargol b. 1900 "Brzesko" wanted in 1940).
+- Arcanum (adt.arcanum.com) needs a paid subscription – not used.
+- FamilySearch catalog: Pilisszántó 1 church-records item, Tinnye 2 – not yet browsed (lower priority: user wants the Kagol line).
