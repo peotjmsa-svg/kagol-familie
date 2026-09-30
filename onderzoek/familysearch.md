@@ -170,3 +170,8 @@ surname on baptisms where FamilySearch does not. Results show max. ~50 rows per 
    and 004666200 (any pre-1772 baptism fragments) – the user would have to go, or order a scan.
 2. Ask the **Archiwum Diecezjalne w Tarnowie** or the parish of Szczepanów for a lookup/scan of Casimir's marriage (~1774–1776).
 3. Josephine cadastre (1785–1788) for Wokowice: who held house 57 (and whether it came from Casimir's father).
+4. **Land registers** (step 4 of the plan, only started): Galician cadastre maps 1847–1901 for the Brzesko district are in the
+   National Archives in Kraków, fond **29/280** ("Kataster galicyjski"), with scans on szukajwarchiwach.gov.pl; PolishOrigins
+   has an index (polishorigins.com/galician-cadastre). The site search via script did not work (szukajwarchiwach.pl timed out,
+   gov.pl search URL "not found") – open it by hand in the debug Chrome next time. The Josephine cadastre (1785–1788, Bochnia
+   circle = opis I of TsDIAL fond 19, Lviv) would show who held house 57 in Casimir's time; availability for Wokowice unknown.
